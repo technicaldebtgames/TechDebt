@@ -1,0 +1,17 @@
+.MainFooter {
+
+    display: block;
+    margin: 0 auto;
+
+}
+
+.MainFooter .text {
+
+    display: block;
+    margin: 0 0 10vw 0;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    font-size: 5vw;
+
+}
