@@ -50,6 +50,10 @@
 .art-svgs {
 
     margin: 0 0 10vw 0;
-    width: 100%;
+    width: 90%;
+    max-width: 1000px;
+    border-style: solid;
+    border-width: 1vw;
+    border-color: white;
 
 }
