@@ -7,9 +7,10 @@
 
 .logo {
 
-    margin: -20% auto;
+    margin: -25% auto;
     display: block;
     width: 100%;
+    overflow: hidden;
 
 }
 
@@ -18,7 +19,7 @@
     display: block;
     margin: 0 auto;
     position: relative;
-    top: -20vw;
+    top: -15vw;
 
 }
 

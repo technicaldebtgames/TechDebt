@@ -7,12 +7,12 @@ import './MainHeader.css';
 const MainHeader = (props) => {
 
     return (
-        <div className='MainHeader'>
+        <header className='MainHeader'>
             <img className='logo' src={TechDebtLips} alt='Tech Debt Lips' />
             <div className='title'>
                 <h1>Dan Brioli</h1>
             </div>
-        </div>
+        </header>
     );
 
 };
