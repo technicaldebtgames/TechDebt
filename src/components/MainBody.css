@@ -19,6 +19,12 @@
 
 }
 
+.MainBody a {
+
+    color: white;
+
+}
+
 .MainBody a:visited {
 
     color: #AAAAAA;
