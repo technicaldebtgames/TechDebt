@@ -13,6 +13,7 @@ const MainBody = (props) => {
             <h2><a href='https://video-essays.netlify.app/'>Video Essay Transcripts</a></h2>
             <h2>Art</h2>
             <img className='art-svgs' src={DesertTrees} alt='Desert Trees'/>
+            <p>(you've reached the end of the internet)</p>
         </div>
     );
 
