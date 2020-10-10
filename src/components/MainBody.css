@@ -33,12 +33,29 @@
     width: 90vw;
     max-width: 900px;
     text-align: justify;
+    color: #CCCCCC;
 
 }
 
 .MainBody h3 {
 
     font-size: 4vw;
+    color: #FF0000;
+    text-shadow: 0.15vw 0.15vw 0 #770000,
+                 0.3vw 0.3vw 0 #550000,
+                 0.45vw 0.45vw 0 #330000,
+                 0.6vw 0.6vw 0 #110000;
+
+}
+
+.MainBody h4 {
+
+    font-size: 3vw;
+    font-style: italic;
+    text-shadow: 0.15vw 0.15vw 0 #777,
+                 0.3vw 0.3vw 0 #555,
+                 0.45vw 0.45vw 0 #333,
+                 0.6vw 0.6vw 0 #111;
 
 }
 
@@ -117,6 +134,20 @@
     .MainBody h3 {
 
         font-size: 40px;
+        text-shadow: 1.5px 1.5px 0 #770000,
+                     3px 3px 0 #550000,
+                     4.5px 4.5px 0 #330000,
+                     6px 6px 0 #110000;
+    
+    }
+
+    .MainBody h4 {
+
+        font-size: 30px;
+        text-shadow: 1.5px 1.5px 0 #777,
+                     3px 3px 0 #555,
+                     4.5px 4.5px 0 #333,
+                     6px 6px 0 #111;
     
     }
 
