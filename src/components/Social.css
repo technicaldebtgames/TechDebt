@@ -27,3 +27,21 @@
     filter: brightness(10) opacity(100%);
 
 }
+
+@media only screen and (min-width: 1000px) {
+
+    .Social {
+
+        margin: -75px auto 0 auto;
+        justify-content: center;
+
+    }
+
+    .Social a {
+
+        margin-left: 55px;
+        margin-right: 55px;
+
+    }
+
+}

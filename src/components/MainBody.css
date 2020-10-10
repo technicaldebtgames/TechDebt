@@ -20,12 +20,25 @@
     font-size: 6vw;
     color: black;
     background-color: white;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 
 }
 
 .MainBody p {
 
+    margin: 3vw auto;
     font-size: 3vw;
+    width: 90vw;
+    max-width: 900px;
+    text-align: justify;
+
+}
+
+.MainBody h3 {
+
+    font-size: 4vw;
 
 }
 
@@ -47,13 +60,72 @@
 
 }
 
-.art-svgs {
+.art {
 
-    margin: 0 0 10vw 0;
-    width: 90%;
+    display: block;
+    margin: 0 auto 10vw auto;
+    width: 90vw;
     max-width: 1000px;
     border-style: solid;
     border-width: 1vw;
     border-color: white;
+
+}
+
+.art:last-of-type {
+
+    margin: 0 auto;
+
+}
+
+.hide {
+
+    display: none;
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .MainBody {
+
+        margin-bottom: 150px;
+
+    }
+
+    .MainBody h2 {
+
+        margin: 100px 0;
+        font-size: 40px;
+
+    }
+
+    .MainBody h1 {
+
+        margin: 100px 0;
+        padding: 10px;
+        font-size: 60px;
+
+    }
+
+    .MainBody p {
+
+        margin: 30px auto;
+        font-size: 30px;
+    
+    }
+    
+    .MainBody h3 {
+
+        font-size: 40px;
+    
+    }
+
+    .art {
+
+        margin: 0 auto 100px auto;
+        width: 900px;
+        border-width: 10px;
+
+    }
 
 }

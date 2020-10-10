@@ -33,3 +33,26 @@
     font-size: 10vw;
 
 }
+
+@media only screen and (min-width: 1000px) {
+
+    .logo {
+
+        margin: -250px auto;
+        width: 1000px;
+
+    }
+
+    .title {
+
+        top: -150px;
+
+    }
+
+    .title h1 {
+
+        font-size: 100px;
+
+    }
+    
+}
