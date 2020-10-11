@@ -19,6 +19,7 @@
     display: block;
     margin: 0 auto;
     position: relative;
+    font-family: 'Ubuntu Mono', monospace;
     top: -15vw;
 
 }
@@ -28,9 +29,17 @@
     display: block;
     margin: 0 auto;
     text-align: center;
-    font-family: 'Ubuntu Mono', monospace;
     font-weight: 400;
     font-size: 10vw;
+
+}
+
+.title p {
+
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4.3vw;
 
 }
 
@@ -52,6 +61,12 @@
     .title h1 {
 
         font-size: 100px;
+
+    }
+
+    .title p {
+
+        font-size: 43px;
 
     }
     

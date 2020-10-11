@@ -13,6 +13,7 @@ const MainHeader = (props) => {
             <img className='logo' src={TechDebtLips} alt='Tech Debt Lips' />
             <div className='title'>
                 <h1>Dan Brioli</h1>
+                <p>MAKING STUFF SINCE 1983</p>
             </div>
             <Social />
         </header>

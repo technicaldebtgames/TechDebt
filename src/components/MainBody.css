@@ -6,13 +6,6 @@
 
 }
 
-.MainBody h2 {
-
-    margin: 10vw 0;
-    font-size: 4vw;
-
-}
-
 .MainBody h1 {
 
     margin: 10vw 0;
@@ -26,14 +19,16 @@
 
 }
 
-.MainBody p {
+.MainBody h2 {
 
-    margin: 3vw auto;
-    font-size: 3vw;
-    width: 90vw;
-    max-width: 900px;
-    text-align: justify;
-    color: #CCCCCC;
+    margin: 10vw 0;
+    font-size: 4vw;
+
+}
+
+.MainBody article {
+
+    margin: 10vw 0;
 
 }
 
@@ -56,6 +51,17 @@
                  0.3vw 0.3vw 0 #555,
                  0.45vw 0.45vw 0 #333,
                  0.6vw 0.6vw 0 #111;
+
+}
+
+.MainBody p {
+
+    margin: 3vw auto;
+    font-size: 3vw;
+    width: 90vw;
+    max-width: 900px;
+    text-align: left;
+    color: #CCCCCC;
 
 }
 
@@ -109,13 +115,6 @@
 
     }
 
-    .MainBody h2 {
-
-        margin: 100px 0;
-        font-size: 40px;
-
-    }
-
     .MainBody h1 {
 
         margin: 100px 0;
@@ -124,10 +123,16 @@
 
     }
 
-    .MainBody p {
+    .MainBody h2 {
 
-        margin: 30px auto;
-        font-size: 30px;
+        margin: 100px 0;
+        font-size: 40px;
+
+    }
+    
+    .MainBody article {
+
+        margin: 100px 0;
     
     }
     
@@ -148,6 +153,13 @@
                      3px 3px 0 #555,
                      4.5px 4.5px 0 #333,
                      6px 6px 0 #111;
+    
+    }
+
+    .MainBody p {
+
+        margin: 30px auto;
+        font-size: 30px;
     
     }
 
