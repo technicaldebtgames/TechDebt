@@ -59,7 +59,7 @@
 
 .subtitle4 {
 
-    margin: -0.245vw auto 0 auto;
+    margin: -0.2vw auto 0 auto;
     font-size: 2.34vw;
     color: #666;
 
@@ -75,7 +75,7 @@
 
 .subtitle6 {
 
-    margin: 0 auto 0 auto;
+    margin: 0.2vw auto 0 auto;
     font-size: 1.76vw;
     color: #111;
 
@@ -125,7 +125,7 @@
     
     .subtitle4 {
     
-        margin: -2.45px auto 0 auto;
+        margin: -2px auto 0 auto;
         font-size: 23.4px;
     
     }
@@ -139,6 +139,7 @@
     
     .subtitle6 {
     
+        margin: 2px auto 0 auto;
         font-size: 17.6px;
     
     }
