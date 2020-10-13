@@ -54,18 +54,19 @@
     font-style: italic;
     color: #DDDDDD;
     background-color: #333333;
-    text-shadow: 0.15vw 0.15vw 0 #999,
-                 0.3vw 0.3vw 0 #777,
-                 0.45vw 0.45vw 0 #555,
-                 0.6vw 0.6vw 0 #333;
+    text-shadow: 0.15vw 0.15vw 0 #777,
+                 0.3vw 0.3vw 0 #555,
+                 0.45vw 0.45vw 0 #333,
+                 0.6vw 0.6vw 0 #111;
 
 }
 
 .MainBody p {
 
     margin: 3vw auto;
-    font-size: 4vw;
-    line-height: 5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.5vw;
+    line-height: 6vw;
     width: 90vw;
     max-width: 900px;
     text-align: left;
@@ -119,8 +120,8 @@
 
     .MainBody p {
 
-    font-size: 3vw;
-    line-height: 3.75vw;
+    font-size: 4vw;
+    line-height: 5.5vw;
 
     }
 
@@ -171,10 +172,10 @@
 
         padding: 30px 0;
         font-size: 45px;
-        text-shadow: 1.5px 1.5px 0 #999,
-                     3px 3px 0 #777,
-                     4.5px 4.5px 0 #555,
-                     6px 6px 0 #333;
+        text-shadow: 1.5px 1.5px 0 #777,
+                     3px 3px 0 #555,
+                     4.5px 4.5px 0 #333,
+                     6px 6px 0 #111;
     
     }
 
@@ -182,7 +183,7 @@
 
         margin: 30px auto;
         font-size: 30px;
-        line-height: 37.5px;
+        line-height: 45px;
     
     }
 
