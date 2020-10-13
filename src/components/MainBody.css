@@ -38,12 +38,9 @@
 
     padding: 4vw 0;
     font-size: 5vw;
-    color: #CC0000;
-    background-color: #333333;
-    text-shadow: 0.15vw 0.15vw 0 #770000,
-                 0.3vw 0.3vw 0 #550000,
-                 0.45vw 0.45vw 0 #330000,
-                 0.6vw 0.6vw 0 #110000;
+    font-weight: 600;
+    color: #330000;
+    background-color: #AAAAAA;
 
 }
 
@@ -51,13 +48,10 @@
 
     padding: 3vw 0;
     font-size: 4.5vw;
+    font-weight: 400;
     font-style: italic;
-    color: #DDDDDD;
-    background-color: #333333;
-    text-shadow: 0.15vw 0.15vw 0 #777,
-                 0.3vw 0.3vw 0 #555,
-                 0.45vw 0.45vw 0 #333,
-                 0.6vw 0.6vw 0 #111;
+    color: #222222;
+    background-color: #BBBBBB;
 
 }
 
@@ -161,10 +155,6 @@
 
         padding: 40px 0;
         font-size: 50px;
-        text-shadow: 1.5px 1.5px 0 #770000,
-                     3px 3px 0 #550000,
-                     4.5px 4.5px 0 #330000,
-                     6px 6px 0 #110000;
     
     }
 
@@ -172,10 +162,6 @@
 
         padding: 30px 0;
         font-size: 45px;
-        text-shadow: 1.5px 1.5px 0 #777,
-                     3px 3px 0 #555,
-                     4.5px 4.5px 0 #333,
-                     6px 6px 0 #111;
     
     }
 
