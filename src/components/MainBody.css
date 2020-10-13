@@ -64,6 +64,7 @@
 
     margin: 3vw auto;
     font-size: 3vw;
+    line-height: 3.75vw;
     width: 90vw;
     max-width: 900px;
     text-align: left;
@@ -169,6 +170,7 @@
 
         margin: 30px auto;
         font-size: 30px;
+        line-height: 37.5px;
     
     }
 
