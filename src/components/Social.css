@@ -1,6 +1,6 @@
 .Social {
 
-    margin: -7.5vw auto 0 auto;
+    margin: -20vw auto 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,13 +18,13 @@
 .Social img {
 
     width: 75px;
-    filter: brightness(10) opacity(75%);
+    filter: brightness(10) opacity(100%);
 
 }
 
 .Social img:hover {
 
-    filter: brightness(10) opacity(100%);
+    filter: brightness(10) opacity(60%);
 
 }
 
@@ -32,7 +32,7 @@
 
     .Social {
 
-        margin: -75px auto 0 auto;
+        margin: -200px auto 0 auto;
         justify-content: center;
 
     }

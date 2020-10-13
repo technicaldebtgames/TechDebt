@@ -19,28 +19,65 @@
     display: block;
     margin: 0 auto;
     position: relative;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: monospace;
+    text-align: center;
     top: -15vw;
 
 }
 
 .title h1 {
 
-    display: block;
     margin: 0 auto;
-    text-align: center;
     font-weight: 400;
     font-size: 10vw;
 
 }
 
-.title p {
+.subtitle1 {
 
-    display: block;
-    margin: -2.5vw auto;
-    text-align: center;
-    font-size: 5.45vw;
-    color: #CCCCCC;
+    margin: -2.5vw auto 0 auto;
+    font-size: 6.15vw;
+    color: #DDD;
+
+}
+
+.subtitle2 {
+
+    margin: -1.25vw auto 0 auto;
+    font-size: 4.93vw;
+    color: #BBB;
+
+}
+
+.subtitle3 {
+
+    margin: -0.5vw auto 0 auto;
+    font-size: 3.07vw;
+    color: #999;
+
+}
+
+.subtitle4 {
+
+    margin: -0.25vw auto 0 auto;
+    font-size: 2.35vw;
+    color: #666;
+
+}
+
+.subtitle5 {
+
+    margin: 0.2vw auto 0 auto;
+    font-size: 1.97vw;
+    color: #333;
+
+}
+
+.subtitle6 {
+
+    margin: 0 auto 0 auto;
+    font-size: 1.77vw;
+    color: #111;
 
 }
 
@@ -65,11 +102,45 @@
 
     }
 
-    .title p {
+    .subtitle1 {
 
-        font-size: 54.5px;
-        margin: -25px auto;
+        font-size: 61.6px;
+        margin: -25px auto 0 auto;
 
+    }
+    
+    .subtitle2 {
+    
+        margin: -12.5px auto 0 auto;
+        font-size: 49.3px;
+    
+    }
+    
+    .subtitle3 {
+    
+        margin: -5px auto 0 auto;
+        font-size: 30.7px;
+    
+    }
+    
+    .subtitle4 {
+    
+        margin: -2.5px auto 0 auto;
+        font-size: 23.5px;
+    
+    }
+    
+    .subtitle5 {
+    
+        margin: 2px auto 0 auto;
+        font-size: 19.7px;
+    
+    }
+    
+    .subtitle6 {
+    
+        font-size: 17.7px;
+    
     }
     
 }

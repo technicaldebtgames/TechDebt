@@ -13,7 +13,12 @@ const MainHeader = (props) => {
             <img className='logo' src={TechDebtLips} alt='Tech Debt Lips' />
             <div className='title'>
                 <h1>Dan Brioli</h1>
-                <p>WRITING TECH RIGHT</p>
+                <p className='subtitle1'>WRITE TECH RIGHT</p>
+                <p className='subtitle2'>DON'T MISS DEADLINES</p>
+                <p className='subtitle3'>VOTED LEAST LIKELY TO BE A ROBOT</p>
+                <p className='subtitle4'>LONG FORM WRITTEN CONTENT AND ILLUSTRATION</p>
+                <p className='subtitle5'>WEB DEVELOPMENT, TECH CONSULTING, CONTENT CREATION</p>
+                <p className='subtitle6'>INCREASINGLY SMALL AND HUMOROUS TEXT THAT YOU CAN'T READ</p>
             </div>
             <Social />
         </header>
