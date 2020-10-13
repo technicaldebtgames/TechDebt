@@ -42,7 +42,7 @@ const MainBody = (props) => {
                 <p>Alright, enough with the finger pointing! Technical debt isn't owned by any particular group of people. Your entire organization owns it! It's a debt incurred because of the natural inefficiencies and shortcomings of the flawed creatures we call humans, as they interact with each other within an organization's framework.</p>
                 <p>There are quite a few methods that can help you begin the necessary discussions that can help tackle these organizational issues. Communication is key. I won't go into them here - they're as potentially diverse as the number of organizations that exist. Each business is going to have unique demands and idiosyncracies that need addressed, changing the nature of the discussion that should be had. I just want to bring attention to a common problem with technical debt, which is the human desire to shift blame onto other parties when dealing with real organizational issues. One way of shifting that blame is to make the (incorrect) statement that "technical debt doesn't exist".</p>
                 <p>Many far more intelligent people than I have tackled this topic. Martin Fowler has influenced a lot of my ideas surrounding technical debt. He wrote a great <a href='https://martinfowler.com/bliki/TechnicalDebtQuadrant.html'>blog post</a> years ago about his idea of "technical debt quadrants". Check out this quick little diagram:</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reckless | Prudent<br/>
+                <p className='mono'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reckless | Prudent<br/>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
                     Deliberate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deliberate<br/>
                     ---------------------------------<br/>
@@ -120,7 +120,7 @@ const MainBody = (props) => {
                 <p>If you're looking to get started in any of the areas mentioned above, these software titles should be your first downloads. You'll usually find a series of intuitive, easy-to-use, and/or very powerful tools, all at no cost, that can get you professional results for absolutely no cost to you. Spend some time getting to know your tools. If you're making anything, you're a craftsperson. Take some pride in your ability to use these tools, because they are the things you use to make things no one else has seen or heard before.</p>
             </article>
             
-            <h1 onClick={() => setExpandArt(!expandArt)}>Art {expandArt ? '▲' : '▼'}</h1>
+            <h1 onClick={() => setExpandArt(!expandArt)}>Art / Illustration {expandArt ? '▲' : '▼'}</h1>
             
             <img className={expandArt ? 'art' : 'hide'} src={AngryFace} alt='Angry Face'/>
             <img className={expandArt ? 'art' : 'hide'} src={MonkeyPaw} alt='Monkey Paw'/>

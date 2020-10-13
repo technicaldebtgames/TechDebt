@@ -30,7 +30,7 @@
 
     margin: 10vw 0;
     padding: 0 0 1vw 0;
-    background-color: #DDDDDD;
+    background-color: #EEEEEE;
 
 }
 
@@ -40,7 +40,8 @@
     font-size: 5vw;
     font-weight: 600;
     color: #330000;
-    background-color: #AAAAAA;
+    background: #AAAAAA;
+    background: linear-gradient(0deg, rgba(238,238,238,1) 75%, rgba(170,170,170,1) 100%);
 
 }
 
@@ -52,6 +53,7 @@
     font-style: italic;
     color: #222222;
     background-color: #BBBBBB;
+    background: linear-gradient(0deg, rgba(238,238,238,1) 75%, rgba(187,187,187,1) 100%);
 
 }
 
@@ -59,6 +61,19 @@
 
     margin: 3vw auto;
     font-family: 'Open Sans', sans-serif;
+    font-size: 4.5vw;
+    line-height: 6vw;
+    width: 90vw;
+    max-width: 900px;
+    text-align: left;
+    color: #111111;
+
+}
+
+.MainBody .mono {
+
+    margin: 3vw auto;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 4.5vw;
     line-height: 6vw;
     width: 90vw;
@@ -119,6 +134,13 @@
 
     }
 
+    .MainBody .mono {
+
+        font-size: 4vw;
+        line-height: 5.5vw;
+
+    }
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -166,6 +188,14 @@
     }
 
     .MainBody p {
+
+        margin: 30px auto;
+        font-size: 30px;
+        line-height: 45px;
+    
+    }
+
+    .MainBody .mono {
 
         margin: 30px auto;
         font-size: 30px;
