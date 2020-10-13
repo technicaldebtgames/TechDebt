@@ -30,7 +30,7 @@
 
     margin: 10vw 0;
     padding: 0 0 1vw 0;
-    background-color: #111111;
+    background-color: #AAAAAA;
 
 }
 
@@ -52,7 +52,7 @@
     padding: 1vw 0;
     font-size: 3vw;
     font-style: italic;
-    background-color: #222222;
+    background-color: #333333;
     text-shadow: 0.15vw 0.15vw 0 #999,
                  0.3vw 0.3vw 0 #777,
                  0.45vw 0.45vw 0 #555,
@@ -68,7 +68,7 @@
     width: 90vw;
     max-width: 900px;
     text-align: left;
-    color: #CCCCCC;
+    color: #111111;
 
 }
 
