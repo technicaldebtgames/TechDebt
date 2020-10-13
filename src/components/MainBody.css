@@ -59,14 +59,27 @@
 
 .MainBody p {
 
-    margin: 3vw auto;
+    margin: 5vw auto;
     font-family: sans-serif;
     font-size: 4.5vw;
-    line-height: 6vw;
-    width: 90vw;
-    max-width: 900px;
+    line-height: 6.5vw;
+    width: 80vw;
+    max-width: 800px;
     text-align: left;
     color: #111111;
+
+}
+
+.dropcap:first-letter {
+
+    margin: 0 1.5vw 0 -1vw;
+    float: left;
+    font-family: monospace;
+    font-size: 18vw;
+    font-weight: 1000;
+    line-height: 11vw;
+    background-color: #D0D0D0;
+    border-top-left-radius: 7.5vw;
 
 }
 
@@ -130,8 +143,15 @@
     .MainBody p {
 
     font-size: 4vw;
-    line-height: 5.5vw;
+    line-height: 6vw;
 
+    }
+    
+    .dropcap:first-letter {
+
+        line-height: 9vw;
+        border-top-left-radius: 6vw;
+    
     }
 
     .MainBody .mono {
@@ -189,9 +209,18 @@
 
     .MainBody p {
 
-        margin: 30px auto;
+        margin: 50px auto;
         font-size: 30px;
-        line-height: 45px;
+        line-height: 50px;
+    
+    }
+
+    .dropcap:first-letter {
+
+        margin: 0 15px 0 -10px;
+        font-size: 150px;
+        line-height: 75px;
+        border-top-left-radius: 50px;
     
     }
 
