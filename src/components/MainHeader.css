@@ -37,9 +37,9 @@
 .title p {
 
     display: block;
-    margin: 0 auto;
+    margin: -2.5vw auto;
     text-align: center;
-    font-size: 4.3vw;
+    font-size: 5.45vw;
     color: #CCCCCC;
 
 }
@@ -67,7 +67,8 @@
 
     .title p {
 
-        font-size: 43px;
+        font-size: 54.5px;
+        margin: -25px auto;
 
     }
     
