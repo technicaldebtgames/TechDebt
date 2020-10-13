@@ -15,27 +15,16 @@ const MainBody = (props) => {
     return (
         <div className='MainBody'>
             
-            <h1 onClick={() => setExpandProjects(!expandProjects)}>Projects {expandProjects ? '▲' : '▼'}</h1>
-            
-            {/*<h2 className={expandProjects ? '' : 'hide'}><a href='https://thevarietyshow.netlify.app/'>The Dan and Liz Variety Show</a></h2>*/}
-            <h2 className={expandProjects ? '' : 'hide'}><a href='https://stylex.netlify.app/'>STYLEX</a></h2>
-            <h2 className={expandProjects ? '' : 'hide'}><a href='https://video-essays.netlify.app/'>Video Essay Transcripts</a></h2>
-            
-            <h1 onClick={() => setExpandArt(!expandArt)}>Art {expandArt ? '▲' : '▼'}</h1>
-            
-            <img className={expandArt ? 'art' : 'hide'} src={AngryFace} alt='Angry Face'/>
-            <img className={expandArt ? 'art' : 'hide'} src={MonkeyPaw} alt='Monkey Paw'/>
-            <img className={expandArt ? 'art' : 'hide'} src={DesertTrees} alt='Desert Trees'/>
-            
             <h1 onClick={() => setExpandWriting(!expandWriting)}>Writing {expandWriting ? '▲' : '▼'}</h1>
 
             <article className={expandWriting ? 'writing' : 'hide'}>
                 <h3>Does Technical Debt Exist?</h3>
-                <p>I've heard some arguments in the past that technical debt doesn't actually exist. If you can imagine what my reaction to these arguments might be, why, yes! I DO have opinions on this very topic!</p>
+                <p>I've heard some arguments in the past that technical debt doesn't actually exist. If you can imagine my reaction, why... yes! I DO have opinions on this very topic!</p>
                 <p>You're shocked, I'm sure.</p>
-                <p>Let's start by defining the term, shall we?</p>
-                <p>Technical debt is, in its broadest sense and definition, the benefit of doing something one way in the present, in exchange for the cost of doing it in a different way at some point in the future.</p>
+                <h4>A Definition</h4>
+                <p>Let's start by defining the term: technical debt is the benefit of doing something one way in the present, in exchange for the cost of doing it in a different way at some point in the future.</p>
                 <p>That's the most general and applicable definition I could use to describe technical debt. To solidify the meaning of it in our minds, let's consider a real-world scenario.</p>
+                <h4>An Example</h4>
                 <p>Imagine you are leading a team of people creating a content management system. Let's focus in on one aspect of the system for now.</p>
                 <p>This content management system needs to be able to display content, of course. It's right there in the name! Depending on the type of organization you are a part of, you'd go about brainstorming the categories of content you would want to display. Maybe you're a large organization who has a marketing team, or user experience researchers, capturing data that is informing you as to what your users want. Maybe you're a smaller team without those resources, but in talks with a handful of clients in order to directly tailor your software to their specific needs. Or, maybe you're a solo developer working on a hobby project, or filling out your portfolio. Regardless of how you arrive at a list of categories of content for your product, you will get there at some point, specifications in hand and ready to get to work.</p>
                 <p>So, now you start developing these content components to serve to your front-end when it asks the back-end for some content to display.</p>
@@ -45,11 +34,12 @@ const MainBody = (props) => {
                 <p>Yet, a month or two later, your stakeholders are now asking you to develop a "recipe post", and a "tutorial post", and a "life event post", and a...</p>
                 <p>Well, anyway, you get the picture. Requirements have changed. You need to add these newly-discovered features. While you spent a bit of time making individual types of objects before, it seems like it might make more sense to have that "masterPost" object after all. You can render them in a more dynamic fashion than you currently do. It's a little bit more work, but it makes a lot of sense, now. And one of the biggest benefits will be future-proofing your design, so that when new types of content are requested, it's as easy as adding new rendering methods for new fields.</p>
                 <p>Originally, you spent two weeks building out your separate post categories. It's been in production only for a month or two, but enough users have generated enough data that you now have to take that data and convert it to the new masterPost format. And of course you still need to build out the functionality for masterPosts. Converting the user data will have to wait until that's ready and tested. What should have taken a month before, if you had simply future-proofed from the start, is now going to take two months. It's even going to stretch past the start of the new marketing campaign, so the marketing team has to delay their activity for another month. In total, you've now spent about three months on this part of the overall project, when a little foresight at the beginning could have cut that time by about two thirds!</p>
+                <h4>So, This Isn't A Myth, Right?</h4>
                 <p>Does this constitute technical debt? Are changing requirements technical debt? Is lack of foresight into the inevitable nature of shifting user demands considered technical debt? Does technical debt only ever fall onto the shoulders of the development team, or is it an organization-wide issue?</p>
                 <p>This is a tough topic to construct arguments around, to be sure. It seems like there were many competing forces that went into this decision-making process that led to your non-optimal use of development resources. You could have been fixing bugs with those extra months, after all!</p>
                 <p>No matter what the exact cause of this design flaw, rest assured, all parties involved will be pointing fingers at the others. The user research team didn't ask the right questions! The development team didn't argue for future-proofing the product design well enough! The marketing team's schedule holds too much power over the product team's work prioritization! Who can even predict changing user demands, anyway? The CTO golfs too much and isn't managing the interplay between these groups and the personalities involved!</p>
-                <p>Alright, enough with the finger pointing! Technical debt isn't owned by any particular group of people. Your entire organization owns it. It's a debt incurred because of the natural inefficiencies and shortcomings of the flawed creatures we call humans, as they interact with each other within an organization's framework.</p>
-                <p>There are quite a few methods that can help you begin the necessary discussions that can help tackle these organizational issues. Communication is key, here. I won't go into them here - they're as potentially diverse as the number of organizations that exist. Each business is going to have unique demands and idiosyncracies that need addressed, changing the nature of the discussion that should be had. I just want to bring attention to a common problem with technical debt, which is the human desire to shift blame onto other parties when dealing with real organizational issues.</p>
+                <p>Alright, enough with the finger pointing! Technical debt isn't owned by any particular group of people. Your entire organization owns it! It's a debt incurred because of the natural inefficiencies and shortcomings of the flawed creatures we call humans, as they interact with each other within an organization's framework.</p>
+                <p>There are quite a few methods that can help you begin the necessary discussions that can help tackle these organizational issues. Communication is key. I won't go into them here - they're as potentially diverse as the number of organizations that exist. Each business is going to have unique demands and idiosyncracies that need addressed, changing the nature of the discussion that should be had. I just want to bring attention to a common problem with technical debt, which is the human desire to shift blame onto other parties when dealing with real organizational issues. One way of shifting that blame is to make the (incorrect) statement that "technical debt doesn't exist".</p>
                 <p>Many far more intelligent people than I have tackled this topic. Martin Fowler has influenced a lot of my ideas surrounding technical debt. He wrote a great <a href='https://martinfowler.com/bliki/TechnicalDebtQuadrant.html'>blog post</a> years ago about his idea of "technical debt quadrants". Check out this quick little diagram:</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reckless | Prudent<br/>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
@@ -127,6 +117,18 @@ const MainBody = (props) => {
                 <p>If you use any of these, you might notice some quirky behavior. Some of these free products have been in development for decades. GIMP, Inkscape, and Audacity have been around longer than some of you reading this have been alive. Their development history can carry some baggage. In comparison to newer products, such as Figma or OBS, they may show some strange behavior. I could write an entire article on the WHY of that, but I'd like to hold off for now. Please keep in mind that these products are top-of-the-line freeware, created by teams of dedicated individuals making an attempt at providing content creators high quality tools. They're provided free of charge! These developers are the unsung heroes of the modern content creation era.</p>
                 <p>If you're looking to get started in any of the areas mentioned above, these software titles should be your first downloads. You'll usually find a series of intuitive, easy-to-use, and/or very powerful tools, all at no cost, that can get you professional results for absolutely no cost to you. Spend some time getting to know your tools. If you're making anything, you're a craftsperson. Take some pride in your ability to use these tools, because they are the things you use to make things no one else has seen or heard before.</p>
             </article>
+            
+            <h1 onClick={() => setExpandArt(!expandArt)}>Art {expandArt ? '▲' : '▼'}</h1>
+            
+            <img className={expandArt ? 'art' : 'hide'} src={AngryFace} alt='Angry Face'/>
+            <img className={expandArt ? 'art' : 'hide'} src={MonkeyPaw} alt='Monkey Paw'/>
+            <img className={expandArt ? 'art' : 'hide'} src={DesertTrees} alt='Desert Trees'/>
+            
+            <h1 onClick={() => setExpandProjects(!expandProjects)}>Projects {expandProjects ? '▲' : '▼'}</h1>
+            
+            {/*<h2 className={expandProjects ? '' : 'hide'}><a href='https://thevarietyshow.netlify.app/'>The Dan and Liz Variety Show</a></h2>*/}
+            <h2 className={expandProjects ? '' : 'hide'}><a href='https://stylex.netlify.app/'>STYLEX</a></h2>
+            <h2 className={expandProjects ? '' : 'hide'}><a href='https://video-essays.netlify.app/'>Video Essay Transcripts</a></h2>
         
         </div>
     );
