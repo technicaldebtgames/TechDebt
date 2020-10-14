@@ -42,17 +42,17 @@
 
 .subtitle1 {
 
-    margin: -2.4vw auto 0 auto;
+    margin: -1.8vw auto 0 auto;
     font-size: 6.15vw;
-    color: #DDD;
+    color: #BBB;
 
 }
 
 .subtitle2 {
 
-    margin: -1.25vw auto 0 auto;
+    margin: -1vw auto 0 auto;
     font-size: 5.48vw;
-    color: #BBB;
+    color: #999;
 
 }
 
@@ -60,15 +60,15 @@
 
     margin: -0.4vw auto 0 auto;
     font-size: 3.07vw;
-    color: #999;
+    color: #777;
 
 }
 
 .subtitle4 {
 
-    margin: 0 auto;
+    margin: 0.2vw auto 0 auto;
     font-size: 2.34vw;
-    color: #666;
+    color: #555;
 
 }
 
@@ -112,13 +112,13 @@
     .subtitle1 {
 
         font-size: 61.6px;
-        margin: -24px auto 0 auto;
+        margin: -18px auto 0 auto;
 
     }
     
     .subtitle2 {
     
-        margin: -12.5px auto 0 auto;
+        margin: -10px auto 0 auto;
         font-size: 54.8px;
     
     }
@@ -132,6 +132,7 @@
     
     .subtitle4 {
     
+        margin: 2px auto 0 auto;
         font-size: 23.4px;
     
     }
