@@ -1,3 +1,5 @@
 # Dan Brioli
 
-This is the repository for a portfolio I've built to highlight some on-going projects and interesting sites/SPAs I have been working on. It has some art and writing examples, as well. It also serves as a central location for my social media accounts - feel free to send me a message or share some content! Please visit the live portfolio at https://techdebtportfolio.netlify.app/
+This is a repository for my freelance writing page. I use this as my primary demonstration site, with contact information and social links, along with a list of my rates for writing, illustration, and design.
+
+Please visit the site in live production at https://www.danbrioli.com/ if you would like to get in contact for services, or just to chat.
