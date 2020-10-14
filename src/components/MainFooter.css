@@ -8,10 +8,11 @@
 .MainFooter .text {
 
     display: block;
-    margin: 0 0 10vw 0;
+    padding: 10vw 0;
+    color: #AAAAAA;
     text-align: center;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: monospace;
     font-weight: 400;
-    font-size: 5vw;
+    font-size: 2vw;
 
 }

@@ -6,7 +6,7 @@ const MainFooter = (props) => {
 
     return (
         <div className='MainFooter'>
-            <p className='text'>Portfolio, Dan Brioli, 2020-</p>
+            <p className='text'>© Dan Brioli 2020+</p>
         </div>
     );
 

@@ -19,11 +19,12 @@ const MainBody = (props) => {
 
             <article className={expandWriting ? 'writing' : 'hide'}>
                 <h3>Does Technical Debt Exist?</h3>
-                <p className='dropcap'>I have heard some arguments in the past that technical debt doesn't actually exist. If you can imagine my reaction, why... yes! I DO have opinions on this very topic!</p>
-                <p>You're shocked, I'm sure.</p>
+                <p className='dropcap'>I have heard some arguments in the past that technical debt doesn't actually exist. Now, look at the branding at the top of this page...</p>
+                <p>If you can possibly imagine, why, yes! I DO have opinions about this!</p>
+                <p>Shocking, right?</p>
                 <h4>A Definition</h4>
                 <p>Let's start by defining the term: technical debt is the benefit of doing something one way in the present, in exchange for the cost of doing it in a different way at some point in the future.</p>
-                <p>That's the most general and applicable definition I could use to describe technical debt. To solidify the meaning of it in our minds, let's consider a real-world scenario.</p>
+                <p>It's super simple. You do something now and it costs less, but in the future, you'll have to change it, and it costs more by that point, when you total up all of the combined work to do it properly. To really solidify the meaning of it in our minds, let's consider this real-world scenario below!</p>
                 <h4>An Example</h4>
                 <p>Imagine you are leading a team of people creating a content management system. Let's focus in on one aspect of the system for now.</p>
                 <p>This content management system needs to be able to display content, of course. It's right there in the name! Depending on the type of organization you are a part of, you'd go about brainstorming the categories of content you would want to display. Maybe you're a large organization who has a marketing team, or user experience researchers, capturing data that is informing you as to what your users want. Maybe you're a smaller team without those resources, but in talks with a handful of clients in order to directly tailor your software to their specific needs. Or, maybe you're a solo developer working on a hobby project, or filling out your portfolio. Regardless of how you arrive at a list of categories of content for your product, you will get there at some point, specifications in hand and ready to get to work.</p>

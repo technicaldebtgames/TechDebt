@@ -2,6 +2,7 @@ import React from 'react';
 
 import MainHeader from './components/MainHeader.js';
 import MainBody from './components/MainBody.js';
+import MainFooter from './components/MainFooter.js';
 
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <MainHeader />
       <MainBody />
+      <MainFooter />
     </div>
   );
 }
