@@ -78,6 +78,21 @@
 
 }
 
+.estimates p {
+
+    margin: 2vw auto;
+
+}
+
+p.lighter {
+
+    padding: 4vw 0 4vw 10vw;
+    color: #777;
+    font-size: 4vw;
+    line-height: 4.5vw;
+
+}
+
 .dropcap:first-letter {
 
     margin: 0 1.5vw 0 -1vw;
@@ -154,6 +169,21 @@
     line-height: 6vw;
 
     }
+
+    .estimates p {
+    
+        font-size: 4vw;
+        line-height: 6vw;
+    
+    }
+    
+    p.lighter {
+    
+        padding: 3.5vw 0 3.5vw 10vw;
+        font-size: 3.5vw;
+        line-height: 4vw;
+    
+    }
     
     .dropcap:first-letter {
 
@@ -182,7 +212,6 @@
     .MainBody h1 {
 
         margin: 100px 0;
-        /*padding: 10px calc(calc(100% / 2) - calc(900px - 25%)) 10px 0;*/
         padding: 10px calc(calc(50% - 900px) + 630px) 10px 0;
         font-size: 60px;
 
@@ -227,6 +256,22 @@
         margin: 50px auto;
         font-size: 30px;
         line-height: 50px;
+    
+    }
+
+    .estimates p {
+    
+        margin: 20px auto;
+        font-size: 30px;
+        line-height: 50px;
+    
+    }
+    
+    p.lighter {
+    
+        padding: 35px 0 35px 100px;
+        font-size: 20px;
+        line-height: 30px;
     
     }
 

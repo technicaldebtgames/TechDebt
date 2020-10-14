@@ -141,22 +141,26 @@ const MainBody = (props) => {
 
             <section className={expandEstimate ? 'estimates' : 'hide'}>
                 <h3>Writing / Editorial</h3>
-                <p><i>Rates are negotiable based on requirements. Desired revision rounds, amount of research required, and other details may affect rates. Per-article rates may be available.</i></p>
-                <p>Blog, long (2k+ words): $0.25/word</p>
-                <p>Blog, medium (~1k words): $0.20/word</p>
-                <p>Blog, short (~500 words): $0.15/word</p>
-                <p>Newsletters: $0.50/word</p>
-                <p>Proofreading: $0.05/word</p>
-                <p>Revision of existing work: By quote.</p>
-                <p>End user documentation: By quote.</p>
-                <p>Technical documentation: By quote.</p>
+                <p><b>Blog, long (2k+):</b> $0.30/word</p>
+                <p><b>Blog, medium (~1k):</b> $0.25/word</p>
+                <p><b>Blog, short (~500):</b> $0.20/word</p>
+                <p><b>Newsletters:</b> $0.50/word</p>
+                <p><b>Proofreading:</b> $0.05/word</p>
+                <p><b>Revision of existing work:</b> By quote.</p>
+                <p><b>End user documentation:</b> By quote.</p>
+                <p><b>Technical documentation:</b> By quote.</p>
+                <p className='lighter'><i>Rates are negotiable based on requirements. Desired revision rounds, amount of research required, and other details may affect rates. Per-article rates may be available.</i></p>
                 <h3>Illustration / Design</h3>
-                <p><i>Rates are negotiable based on requirements. Desired revision rounds, rights management or release, and other details may affect rates.</i></p>
-                <p>Individual illustration: $100-$500</p>
-                <p>Logo / brand design: $500-$5,000</p>
-                <p>Letterhead / stationery: $500-$2,500</p>
-                <p>Chart / data visualization: By quote.</p>
-                <p>Web design / development: By quote.</p>
+                <p><b>Individual illustration:</b> $100-$500</p>
+                <p><b>Logo / brand design:</b> $500-$5,000</p>
+                <p><b>Letterhead / stationery:</b> $500-$2,500</p>
+                <p><b>Chart / data visualization:</b> By quote.</p>
+                <p><b>Web design / development:</b> By quote.</p>
+                <p className='lighter'><i>Rates are negotiable based on requirements. Desired revision rounds, rights management or release, and other details may affect rates.</i></p>
+                <h3>Standard Terms</h3>
+                <p><b>Standard payment terms:</b> Net 15. This simply means payment is due 15 days after I send the invoice, which will be noted on the invoice itself. Invoices will be sent electronically to the email address on record for the account. A late payment fee of 10% of the invoice amount will be charged if payment is made after the agreed upon date, and 10% non-compounding for each month after the payment due date. In some cases, full or partial payment may be requested before work begins, or at set intervals during the work.</p>
+                <p><b>Standard license terms:</b> As the work's creator, copyright is assigned by default. For written or illustration work, you are purchasing the right to publish the work according to the terms of the contract, and I retain the full copyright. If you would like to purchase extended licensing or full ownership rights to the work, please note that this will increase the rate charged.</p>
+                <p className='lighter'><i>All terms are negotiable and full terms and conditions of the contract will be reviewed before work begins.</i></p>
             </section>
         
         </div>
