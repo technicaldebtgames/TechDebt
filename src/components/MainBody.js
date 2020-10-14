@@ -140,18 +140,20 @@ const MainBody = (props) => {
             <h1 onClick={() => setExpandEstimate(!expandEstimate)}>Pricing {expandEstimate ? '▲' : '▼'}</h1>
 
             <section className={expandEstimate ? 'estimates' : 'hide'}>
-                <h3>Writing / Editorial Services</h3>
+                <h3>Writing / Editorial</h3>
                 <p><i>Rates are negotiable based on requirements. Desired revision rounds, amount of research required, and other details may affect rates. Per-article rates may be available.</i></p>
-                <p>Blog, long (2k+ words): $0.20/word</p>
-                <p>Blog, medium (~1k words): $0.15/word</p>
-                <p>Blog, short (~500 words): $0.10/word</p>
-                <p>Proofreading: $0.03-$0.05/word</p>
+                <p>Blog, long (2k+ words): $0.25/word</p>
+                <p>Blog, medium (~1k words): $0.20/word</p>
+                <p>Blog, short (~500 words): $0.15/word</p>
+                <p>Newsletters: $0.50/word</p>
+                <p>Proofreading: $0.05/word</p>
                 <p>Revision of existing work: By quote.</p>
+                <p>End user documentation: By quote.</p>
                 <p>Technical documentation: By quote.</p>
-                <h3>Illustration / Design Services</h3>
+                <h3>Illustration / Design</h3>
                 <p><i>Rates are negotiable based on requirements. Desired revision rounds, rights management or release, and other details may affect rates.</i></p>
                 <p>Individual illustration: $100-$500</p>
-                <p>Logo/brand design: $500-$5,000</p>
+                <p>Logo / brand design: $500-$5,000</p>
                 <p>Letterhead / stationery: $500-$2,500</p>
                 <p>Chart / data visualization: By quote.</p>
                 <p>Web design / development: By quote.</p>

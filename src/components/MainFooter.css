@@ -9,8 +9,9 @@
 .MainFooter .text {
 
     margin: 0.5vw auto;
+    padding: 0 22vw 0 0;
     color: #AAAAAA;
-    text-align: center;
+    text-align: right;
     font-family: monospace;
     font-weight: 400;
     font-size: 2vw;
@@ -28,6 +29,7 @@
     .MainFooter .text {
 
         margin: 5px auto;
+        padding: 0 calc(calc(50% - 900px) + 630px) 0 0;
         font-size: 20px;
     
     }

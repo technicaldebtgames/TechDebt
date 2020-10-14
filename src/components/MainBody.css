@@ -9,7 +9,7 @@
 .MainBody h1 {
 
     margin: 10vw 0;
-    padding: 1vw 25vw 1vw 0;
+    padding: 1vw 22vw 1vw 0;
     font-size: 6vw;
     text-align: right;
     color: black;
@@ -183,7 +183,7 @@
 
         margin: 100px 0;
         /*padding: 10px calc(calc(100% / 2) - calc(900px - 25%)) 10px 0;*/
-        padding: 10px calc(calc(50% - 900px) + 650px) 10px 0;
+        padding: 10px calc(calc(50% - 900px) + 630px) 10px 0;
         font-size: 60px;
 
     }
