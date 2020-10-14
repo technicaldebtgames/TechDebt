@@ -125,7 +125,7 @@ const MainBody = (props) => {
                 <p>If you're looking to get started in any of the areas mentioned above, these software titles should be your first downloads. You'll usually find a series of intuitive, easy-to-use, and/or very powerful tools, all at no cost, that can get you professional results for absolutely no cost to you. Spend some time getting to know your tools. If you're making anything, you're a craftsperson. Take some pride in your ability to use these tools, because they are the things you use to make things no one else has seen or heard before.</p>
             </article>
             
-            <h1 onClick={() => setExpandArt(!expandArt)}>Art / Illustration {expandArt ? '▲' : '▼'}</h1>
+            <h1 onClick={() => setExpandArt(!expandArt)}>Illustration {expandArt ? '▲' : '▼'}</h1>
             
             <img className={expandArt ? 'art' : 'hide'} src={AngryFace} alt='Angry Face'/>
             <img className={expandArt ? 'art' : 'hide'} src={MonkeyPaw} alt='Monkey Paw'/>
@@ -137,7 +137,25 @@ const MainBody = (props) => {
             {/*<h2 className={expandProjects ? '' : 'hide'}><a href='https://stylex.netlify.app/'>STYLEX</a></h2>*/}
             {/*<h2 className={expandProjects ? '' : 'hide'}><a href='https://video-essays.netlify.app/'>Video Essay Transcripts</a></h2>*/}
 
-            <h1 onClick={() => setExpandEstimate(!expandEstimate)}>Pricing Estimates {expandEstimate ? '▲' : '▼'}</h1>
+            <h1 onClick={() => setExpandEstimate(!expandEstimate)}>Pricing {expandEstimate ? '▲' : '▼'}</h1>
+
+            <section className={expandEstimate ? 'estimates' : 'hide'}>
+                <h3>Writing / Editorial Services</h3>
+                <p><i>Rates are negotiable based on requirements. Desired revision rounds, amount of research required, and other details may affect rates. Per-article rates may be available.</i></p>
+                <p>Blog, long (2k+ words): $0.20/word</p>
+                <p>Blog, medium (~1k words): $0.15/word</p>
+                <p>Blog, short (~500 words): $0.10/word</p>
+                <p>Proofreading: $0.03-$0.05/word</p>
+                <p>Revision of existing work: By quote.</p>
+                <p>Technical documentation: By quote.</p>
+                <h3>Illustration / Design Services</h3>
+                <p><i>Rates are negotiable based on requirements. Desired revision rounds, rights management or release, and other details may affect rates.</i></p>
+                <p>Individual illustration: $100-$500</p>
+                <p>Logo/brand design: $500-$5,000</p>
+                <p>Letterhead / stationery: $500-$2,500</p>
+                <p>Chart / data visualization: By quote.</p>
+                <p>Web design / development: By quote.</p>
+            </section>
         
         </div>
     );
