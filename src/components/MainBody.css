@@ -2,7 +2,7 @@
 
     margin: 0 0 15vw 0;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Ubuntu Mono', monospace;
 
 }
 
@@ -68,7 +68,7 @@
 .MainBody p {
 
     margin: 5vw auto;
-    font-family: sans-serif;
+    font-family: 'Assistant', sans-serif;
     font-size: 4.5vw;
     line-height: 6.5vw;
     width: 80vw;
@@ -97,7 +97,7 @@ p.lighter {
 
     margin: 0 1.5vw 0 -1vw;
     float: left;
-    font-family: monospace;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 18vw;
     font-weight: 1000;
     line-height: 11vw;
@@ -109,7 +109,7 @@ p.lighter {
 .MainBody .mono {
 
     margin: 3vw auto;
-    font-family: monospace;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 4.5vw;
     line-height: 6vw;
     width: 90vw;

@@ -19,9 +19,16 @@
     display: block;
     margin: 0 auto;
     position: relative;
-    font-family: monospace;
+    font-family: 'Ubuntu Mono', monospace;
     text-align: center;
     top: -15vw;
+
+}
+
+.title p {
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
 
 }
 
