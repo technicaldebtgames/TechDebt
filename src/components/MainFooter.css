@@ -2,17 +2,34 @@
 
     display: block;
     margin: 0 auto;
+    padding: 10vw 0;
 
 }
 
 .MainFooter .text {
 
-    display: block;
-    padding: 10vw 0;
+    margin: 0.5vw auto;
     color: #AAAAAA;
     text-align: center;
     font-family: monospace;
     font-weight: 400;
     font-size: 2vw;
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .MainFooter {
+
+        padding: 100px 0;
+    
+    }
+
+    .MainFooter .text {
+
+        margin: 5px auto;
+        font-size: 20px;
+    
+    }
 
 }
