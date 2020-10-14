@@ -8,12 +8,16 @@ import './MainBody.css';
 
 const MainBody = (props) => {
 
-    const [expandProjects, setExpandProjects] = useState(false);
-    const [expandArt, setExpandArt] = useState(false);
+    //const [expandProjects, setExpandProjects] = useState(false);
+    const [expandAbout, setExpandAbout] = useState(false);
     const [expandWriting, setExpandWriting] = useState(false);
+    const [expandArt, setExpandArt] = useState(false);
+    const [expandEstimate, setExpandEstimate] = useState(false);
 
     return (
         <div className='MainBody'>
+            
+            <h1 onClick={() => setExpandAbout(!expandAbout)}>Who I Am {expandAbout ? '▲' : '▼'}</h1>
             
             <h1 onClick={() => setExpandWriting(!expandWriting)}>Writing {expandWriting ? '▲' : '▼'}</h1>
 
@@ -127,11 +131,13 @@ const MainBody = (props) => {
             <img className={expandArt ? 'art' : 'hide'} src={MonkeyPaw} alt='Monkey Paw'/>
             <img className={expandArt ? 'art' : 'hide'} src={DesertTrees} alt='Desert Trees'/>
             
-            <h1 onClick={() => setExpandProjects(!expandProjects)}>Projects {expandProjects ? '▲' : '▼'}</h1>
+            {/*<h1 onClick={() => setExpandProjects(!expandProjects)}>Projects {expandProjects ? '▲' : '▼'}</h1>*/}
             
             {/*<h2 className={expandProjects ? '' : 'hide'}><a href='https://thevarietyshow.netlify.app/'>The Dan and Liz Variety Show</a></h2>*/}
-            <h2 className={expandProjects ? '' : 'hide'}><a href='https://stylex.netlify.app/'>STYLEX</a></h2>
-            <h2 className={expandProjects ? '' : 'hide'}><a href='https://video-essays.netlify.app/'>Video Essay Transcripts</a></h2>
+            {/*<h2 className={expandProjects ? '' : 'hide'}><a href='https://stylex.netlify.app/'>STYLEX</a></h2>*/}
+            {/*<h2 className={expandProjects ? '' : 'hide'}><a href='https://video-essays.netlify.app/'>Video Essay Transcripts</a></h2>*/}
+
+            <h1 onClick={() => setExpandEstimate(!expandEstimate)}>Pricing Estimates {expandEstimate ? '▲' : '▼'}</h1>
         
         </div>
     );

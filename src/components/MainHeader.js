@@ -14,7 +14,7 @@ const MainHeader = (props) => {
             <div className='title'>
                 <h1>Dan Brioli</h1>
                 <p className='subtitle1'>WRITE TECH RIGHT</p>
-                <p className='subtitle2'>DON'T MISS DEADLINES</p>
+                <p className='subtitle2'>HIT YOUR DEADLINES</p>
                 <p className='subtitle3'>VOTED LEAST LIKELY TO BE A ROBOT</p>
                 <p className='subtitle4'>LONG FORM WRITTEN CONTENT AND ILLUSTRATION</p>
                 <p className='subtitle5'>WEB DEVELOPMENT, TECH CONSULTING, CONTENT CREATION</p>
