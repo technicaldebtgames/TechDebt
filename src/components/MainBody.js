@@ -9,6 +9,7 @@ import UnicentricLogo from '../images/unicentric_logo.png';
 import DesertTrees from '../images/DesertTrees.svg';
 import AngryFace from '../images/angry_face.svg';
 import MonkeyPaw from '../images/MonkeyPaw.svg';
+import CPU from '../images/cpu.svg';
 
 import TechDebtQuadrant from '../images/techDebtQuadrants.svg';
 
@@ -29,13 +30,11 @@ const MainBody = (props) => {
             <section className={expandAbout ? 'about' : 'hide'}>
                 <h3>Hi, I'm Dan.</h3>
                 <img className='inline-img-left' src={ProfileImage} alt='Dan Brioli' />
-                <p>Do you need <b>posts created for your tech blog</b> with <i>copy and illustrations that professionals will engage with?</i> Do you need to <b>explain technical topics clearly and effectively</b> to <i>a non-technical audience?</i> Do you need a <b>website or brand design</b> that <i>will blow people away?</i> Do you need to <b>create end user documentation</b> that <i>doesn't suck?</i></p>
+                <p>Do you need <b>posts created for your tech or B2B blog</b> with <i>copy and illustrations that professionals will engage with?</i> Do you need to <b>explain technical topics clearly and effectively</b> to <i>a non-technical audience?</i> Do you need a <b>website or brand design</b> that <i>will blow people away?</i> Do you need to <b>create end user documentation</b> that <i>doesn't suck?</i></p>
                 <p>Well, guess what? <b>That's <i>exactly</i> what I do!</b></p>
-                <p>I've worked as a full-stack web developer, support developer, R&D test system operator, and survey technician. I've led soldiers in combat operations and managed military-grade encrypted communication equipment. I'm a hobbyist game developer with an educational background in computer science and economics.</p>
-                <p>Now, I'm a <b>freelance tech writer, illustrator, and designer!</b></p>
-                <p>Let's have a conversation about your organization's needs so that I can make your:</p>
+                <p>Leveraging my background in web development and software support, I'm a <b>tech writing consultant, illustrator, and designer</b> who would like to help you make your:</p>
                 <ul>
-                    <li>Tech blog engaging and compelling.</li>
+                    <li>Tech or B2B blog engaging and compelling.</li>
                     <li>Documentation understandable to users.</li>
                     <li>Company designs and branding stand out.</li>
                     <li>Tech job posts make sense to applicants.</li>
@@ -155,6 +154,7 @@ const MainBody = (props) => {
             
             <h1 onClick={() => setExpandArt(!expandArt)}>Illustration {expandArt ? '▲' : '▼'}</h1>
             
+            <img className={expandArt ? 'art' : 'hide'} src={CPU} alt='CPU In Hands'/>
             <img className={expandArt ? 'art' : 'hide'} src={AngryFace} alt='Angry Face'/>
             <img className={expandArt ? 'art' : 'hide'} src={MonkeyPaw} alt='Monkey Paw'/>
             <img className={expandArt ? 'art' : 'hide'} src={DesertTrees} alt='Desert Trees'/>
