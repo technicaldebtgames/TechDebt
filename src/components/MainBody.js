@@ -30,12 +30,14 @@ const MainBody = (props) => {
                 <p>Do you need to translate tech topics to non-tech people? Do you need to fill your blog with copy and illustrations that people will engage with? Do you need to create user documentation that doesn't suck?</p>
                 <p>Well, that's exactly what I do.</p>
                 <p>I've worked as a full-stack web developer, support developer, R&D test system operator, and survey technician. I've led soldiers in combat operations and managed military-grade encrypted communication equipment. I have an educational background in computer science and economics.</p>
-                <p>Let's have a conversation about your organization so that I can make your:</p>
+                <p>Now, I'm a freelance tech writer, illustrator, and designer!</p>
+                <p>Let's have a conversation about your organization's needs so that I can make your:</p>
                 <ul>
                     <li>Tech blog engaging and compelling.</li>
                     <li>Documentation understandable to users.</li>
                     <li>Process documentation up-to-date.</li>
                     <li>Company designs and branding stand out.</li>
+                    <li>Tech job posts make sense to applicants.</li>
                 </ul>
                 <p>Contact me through my email or social links at the top of the page to get the conversation started!</p>
                 <p>Organizations I have written for:</p>
