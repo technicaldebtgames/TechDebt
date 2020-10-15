@@ -1,5 +1,11 @@
 import React, {useState} from 'react';
 
+import ProfileImage from '../images/db_profile_512.jpg';
+
+import BAELogo from '../images/bae_logo.jpg';
+import CelticLogo from '../images/celtic_logo.png';
+import UnicentricLogo from '../images/unicentric_logo.png';
+
 import DesertTrees from '../images/DesertTrees.svg';
 import AngryFace from '../images/angry_face.svg';
 import MonkeyPaw from '../images/MonkeyPaw.svg';
@@ -8,7 +14,6 @@ import './MainBody.css';
 
 const MainBody = (props) => {
 
-    //const [expandProjects, setExpandProjects] = useState(false);
     const [expandAbout, setExpandAbout] = useState(false);
     const [expandWriting, setExpandWriting] = useState(false);
     const [expandArt, setExpandArt] = useState(false);
@@ -18,6 +23,27 @@ const MainBody = (props) => {
         <div className='MainBody'>
             
             <h1 onClick={() => setExpandAbout(!expandAbout)}>Who I Am {expandAbout ? '▲' : '▼'}</h1>
+
+            <section className={expandAbout ? 'about' : 'hide'}>
+                <h3>Hi, I'm Dan.</h3>
+                <img className='inline-img-left' src={ProfileImage} alt='Dan Brioli' />
+                <p>Do you need to translate tech topics to non-tech people? Do you need to fill your blog with copy and illustrations that people will engage with? Do you need to create user documentation that doesn't suck?</p>
+                <p>Well, that's exactly what I do.</p>
+                <p>Let's have a conversation about your organization so that I can make your:</p>
+                <ul>
+                    <li>Tech blog engaging and compelling.</li>
+                    <li>Documentation understandable to users.</li>
+                    <li>Process documentation up-to-date.</li>
+                    <li>Company designs and branding stand out.</li>
+                </ul>
+                <p>Contact me through my email or social links at the top of the page to get the conversation started!</p>
+                <p>Organizations I have written for:</p>
+                <div className='logo-gallery'>
+                    <img className='logo-gallery-img' src={BAELogo} alt='BAE Systems' />
+                    <img className='logo-gallery-img' src={CelticLogo} alt='Celtic Healthcare' />
+                    <img className='logo-gallery-img' src={UnicentricLogo} alt='Unicentric' />
+                </div>
+            </section>
             
             <h1 onClick={() => setExpandWriting(!expandWriting)}>Writing {expandWriting ? '▲' : '▼'}</h1>
 
@@ -130,17 +156,11 @@ const MainBody = (props) => {
             <img className={expandArt ? 'art' : 'hide'} src={AngryFace} alt='Angry Face'/>
             <img className={expandArt ? 'art' : 'hide'} src={MonkeyPaw} alt='Monkey Paw'/>
             <img className={expandArt ? 'art' : 'hide'} src={DesertTrees} alt='Desert Trees'/>
-            
-            {/*<h1 onClick={() => setExpandProjects(!expandProjects)}>Projects {expandProjects ? '▲' : '▼'}</h1>*/}
-            
-            {/*<h2 className={expandProjects ? '' : 'hide'}><a href='https://thevarietyshow.netlify.app/'>The Dan and Liz Variety Show</a></h2>*/}
-            {/*<h2 className={expandProjects ? '' : 'hide'}><a href='https://stylex.netlify.app/'>STYLEX</a></h2>*/}
-            {/*<h2 className={expandProjects ? '' : 'hide'}><a href='https://video-essays.netlify.app/'>Video Essay Transcripts</a></h2>*/}
 
             <h1 onClick={() => setExpandEstimate(!expandEstimate)}>Pricing {expandEstimate ? '▲' : '▼'}</h1>
 
             <section className={expandEstimate ? 'estimates' : 'hide'}>
-                <h3>Writing / Editorial</h3>
+                <h3>Writing / Editing</h3>
                 <p><b>Blog, long (2k+):</b> $0.30/word</p>
                 <p><b>Blog, medium (~1k):</b> $0.25/word</p>
                 <p><b>Blog, short (~500):</b> $0.20/word</p>
