@@ -37,7 +37,6 @@ const MainBody = (props) => {
                 <ul>
                     <li>Tech blog engaging and compelling.</li>
                     <li>Documentation understandable to users.</li>
-                    <li>Process documentation up to date.</li>
                     <li>Company designs and branding stand out.</li>
                     <li>Tech job posts make sense to applicants.</li>
                 </ul>
@@ -57,7 +56,7 @@ const MainBody = (props) => {
                 <p className='dropcap'>I have heard some arguments in the past that technical debt doesn't actually exist.</p>
                 <p>Look at the branding at the top of this page...</p>
                 <p>Now, if you can possibly imagine, why, yes! I <b>DO</b> have opinions about this!</p>
-                <p><i>Shocking</i>, right?!</p>
+                <p><i>Shocking</i>, right?! Let's get into it!</p>
                 <h4>A Definition</h4>
                 <p className='dropcap'>Let's start by defining the term: <b>technical debt is the benefit of doing something one way in the present, in exchange for the cost of doing it in a different way at some point in the future.</b></p>
                 <p>It's super simple. You do something now and it costs less, but in the future, you'll have to change it, and it costs more by that point, because you have to total up all of the combined work you've done. To really solidify the meaning of it in our minds, let's consider this real-world scenario below!</p>
@@ -182,7 +181,7 @@ const MainBody = (props) => {
                 <p className='lighter'><i>Rates are negotiable based on requirements. Desired revision rounds, rights management or release, and other details may affect rates.</i></p>
                 <h3>Standard Terms</h3>
                 <p><b>Payment:</b> Net 15. This simply means payment is due 15 days after I send the invoice, which will be noted on the invoice itself. Invoices will be sent electronically to the email address on record for the account. A late payment fee of 10% of the invoice amount will be charged if payment is made after the agreed-upon date, and 10% non-compounding for each month after the payment due date. In some cases, full or partial payment may be requested before work begins, or at set intervals during the work.</p>
-                <p><b>Licensing:</b> As the work's creator, copyright is assigned by default. For written or illustration work, you are purchasing the right to publish the work according to the terms of the contract, and I retain the full copyright. If you would like to purchase extended licensing or full ownership rights to the work, please note that this will change the rate quoted.</p>
+                <p><b>Licensing:</b> As the work's creator, copyright is assigned by default. For writing or illustration work, you are purchasing the right to publish the work according to the terms of the contract, and I retain the full copyright. If you would like to purchase extended licensing or full ownership rights to the work, please note that this will change the rate quoted.</p>
                 <p className='lighter'><i>All terms are negotiable and full terms and conditions of the contract will be reviewed before work begins.</i></p>
             </section>
         
