@@ -27,10 +27,10 @@ const MainBody = (props) => {
             <section className={expandAbout ? 'about' : 'hide'}>
                 <h3>Hi, I'm Dan.</h3>
                 <img className='inline-img-left' src={ProfileImage} alt='Dan Brioli' />
-                <p>Do you need to translate tech topics to non-tech people? Do you need to fill your blog with copy and illustrations that people will engage with? Do you need to create user documentation that doesn't suck?</p>
-                <p>Well, guess what? That's exactly what I do!</p>
+                <p>Do you need to fill your <b>tech blog</b> with <i>copy and illustrations that professionals will engage with?</i> Do you need to <b>explain technical topics</b> to <i>non-technical people?</i> Do you need a <b>website or brand design</b> that will <i>blow people away?</i> Do you need to <b>create end user documentation</b> that <i>doesn't suck?</i></p>
+                <p>Well, guess what? <b>That's <i>exactly</i> what I do!</b></p>
                 <p>I've worked as a full-stack web developer, support developer, R&D test system operator, and survey technician. I've led soldiers in combat operations and managed military-grade encrypted communication equipment. I'm a hobbyist game developer with an educational background in computer science and economics.</p>
-                <p>Now, I'm a freelance tech writer, illustrator, and designer!</p>
+                <p>Now, I'm a <b>freelance tech writer, illustrator, and designer!</b></p>
                 <p>Let's have a conversation about your organization's needs so that I can make your:</p>
                 <ul>
                     <li>Tech blog engaging and compelling.</li>
@@ -39,7 +39,7 @@ const MainBody = (props) => {
                     <li>Company designs and branding stand out.</li>
                     <li>Tech job posts make sense to applicants.</li>
                 </ul>
-                <p>Contact me through my email or social links at the top of the page to get the conversation started!</p>
+                <p><b>Contact me through my email or social links at the top of the page to get the conversation started!</b></p>
                 <p>Organizations I have written for:</p>
                 <div className='logo-gallery'>
                     <img className='logo-gallery-img' src={BAELogo} alt='BAE Systems' />
