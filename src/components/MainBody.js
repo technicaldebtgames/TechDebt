@@ -29,6 +29,7 @@ const MainBody = (props) => {
                 <img className='inline-img-left' src={ProfileImage} alt='Dan Brioli' />
                 <p>Do you need to translate tech topics to non-tech people? Do you need to fill your blog with copy and illustrations that people will engage with? Do you need to create user documentation that doesn't suck?</p>
                 <p>Well, that's exactly what I do.</p>
+                <p>I've worked as a full-stack web developer, support developer, R&D test system operator, and survey technician. I've led soldiers in combat operations and managed military-grade encrypted communication equipment. I have an educational background in computer science and economics.</p>
                 <p>Let's have a conversation about your organization so that I can make your:</p>
                 <ul>
                     <li>Tech blog engaging and compelling.</li>
