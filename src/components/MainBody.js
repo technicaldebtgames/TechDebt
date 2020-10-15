@@ -10,6 +10,8 @@ import DesertTrees from '../images/DesertTrees.svg';
 import AngryFace from '../images/angry_face.svg';
 import MonkeyPaw from '../images/MonkeyPaw.svg';
 
+import TechDebtQuadrant from '../images/techDebtQuadrants.svg';
+
 import './MainBody.css';
 
 const MainBody = (props) => {
@@ -77,13 +79,7 @@ const MainBody = (props) => {
                 <p>Alright, enough with the finger pointing! <b>Technical debt isn't owned by any particular group of people.</b> Your entire organization owns it! It's a debt incurred because of the natural inefficiencies and shortcomings of the flawed creatures we call humans, as they interact with each other within an organization's framework.</p>
                 <p>Actual, meaningful communication and trust in expertise between the different groups within the organization is key to battling technical debt. While every company is unique, they all share one thing in common, no matter how well they do - the people within the organization can be more open with each other about their projects and their actual requirements. Each business is going to have unique demands and idiosyncracies that need addressed, changing the nature of the discussion that should be had. In the example above, I think the development team should have tried to argue as strongly as possible that they needed a bit of extra time to introduce a more robust design that would allow for greater flexibility in the future. Changing user demands is a well-known and recurring theme in product development, and it is to be expected - especially so if the members of the team were actually <b>familiar with their user base.</b></p>
                 <p>Many far more intelligent people than I have tackled this topic. <b>Martin Fowler</b> has influenced a lot of my ideas surrounding technical debt. He wrote a great <a href='https://martinfowler.com/bliki/TechnicalDebtQuadrant.html'>blog post</a> years ago about his idea of "<b>technical debt quadrants</b>". Check out this quick little diagram:</p>
-                <p className='mono'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reckless | Prudent<br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
-                    Deliberate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deliberate<br/>
-                    ---------------------------------<br/>
-                    Inadvertent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inadvertent<br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reckless | Prudent</p>
+                <img className='illustration-medium' src={TechDebtQuadrant} alt='Technical Debt Quadrant Illustration' />
                 <p>Martin describes technical debt as falling into one of the four quadrants shown in this graph. Read his post above for a great and fairly concise explanation of them.</p>
                 <p>I find that the "prudent" column might be better conceived of as "<b>inevitable</b>". Technical debt that arises in this section of the graph implies that there is almost nothing that you can do about it. If it was a prudent and deliberate decision, then that was the best choice possible given the constraints, and thus, it was inevitable. If it was a prudent but inadvertent decision, then no one involved could have seen the proper solution at the time, and thus, it was inevitable.</p>
                 <p>I do wish that these axes were understood by more than just the development team. I mean... <b>they aren't even universally considered IN the development team!</b> Developers familiar with the concept of technical debt - especially if they have useful visual methods of describing the issue like the graph above - should be advocates for discussion about this organizational design debt. This is an excellent way of looking at product design and development trade-offs that every part of an organization can benefit from. And, if more members of an organization considered these trade-offs, which are often made when teams within an organization negotiate their requirements with each other, we might be able to finally get our addiction to technical debt under control. <b>Maybe we'd have a lot less "inevitable" debt to pay down in the future.</b></p>

@@ -158,6 +158,13 @@ p.lighter {
 
 }
 
+.illustration-medium {
+
+    width: 70vw;
+    max-width: 450px;
+
+}
+
 .art {
 
     display: block;
