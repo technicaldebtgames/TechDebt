@@ -54,7 +54,7 @@
     padding: 8vw 0 4vw 0;
     font-size: 5vw;
     font-weight: 600;
-    color: #330000;
+    color: #111111;
     background: #AAAAAA;
     background: linear-gradient(0deg, rgba(238,238,238,1) 75%, rgba(170,170,170,1) 100%);
 
@@ -121,8 +121,9 @@ p.lighter {
     font-size: 18vw;
     font-weight: 1000;
     line-height: 11vw;
-    background-color: #D0D0D0;
-    border-top-left-radius: 7.5vw;
+    background: rgb(187,187,187, 0.5);
+    background: linear-gradient(310deg, rgba(187,187,187,0) 55%, rgba(255,0,0,0.33) 90%);
+    border-top-left-radius: 2vw;
 
 }
 
@@ -244,7 +245,7 @@ p.lighter {
     .dropcap:first-letter {
 
         line-height: 9vw;
-        border-top-left-radius: 6vw;
+        border-top-left-radius: 2vw;
     
     }
 
@@ -351,7 +352,7 @@ p.lighter {
         margin: 0 15px 0 -10px;
         font-size: 150px;
         line-height: 75px;
-        border-top-left-radius: 50px;
+        border-top-left-radius: 20px;
     
     }
 
