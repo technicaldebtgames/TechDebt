@@ -29,7 +29,7 @@ const MainBody = (props) => {
             <section className={expandAbout ? 'about' : 'hide'}>
                 <h3>Hi, I'm Dan.</h3>
                 <img className='inline-img-left' src={ProfileImage} alt='Dan Brioli' />
-                <p>Do you need to fill your <b>tech blog</b> with <i>copy and illustrations that professionals will engage with?</i> Do you need to <b>explain technical topics</b> to <i>non-technical people?</i> Do you need a <b>website or brand design</b> that will <i>blow people away?</i> Do you need to <b>create end user documentation</b> that <i>doesn't suck?</i></p>
+                <p>Do you need <b>posts created for your tech blog</b> with <i>copy and illustrations that professionals will engage with?</i> Do you need to <b>explain technical topics clearly and effectively</b> to <i>a non-technical audience?</i> Do you need a <b>website or brand design</b> that <i>will blow people away?</i> Do you need to <b>create end user documentation</b> that <i>doesn't suck?</i></p>
                 <p>Well, guess what? <b>That's <i>exactly</i> what I do!</b></p>
                 <p>I've worked as a full-stack web developer, support developer, R&D test system operator, and survey technician. I've led soldiers in combat operations and managed military-grade encrypted communication equipment. I'm a hobbyist game developer with an educational background in computer science and economics.</p>
                 <p>Now, I'm a <b>freelance tech writer, illustrator, and designer!</b></p>
