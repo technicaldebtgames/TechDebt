@@ -12,7 +12,8 @@
 
 .arrow-button {
 
-    width: 45vw;
+    margin: 3vw 0;
+    width: 60vw;
     font-size: 8vw;
 
 }
@@ -31,7 +32,8 @@
 
     .arrow-button {
 
-        width: 450px;
+        margin: 30px 0;
+        width: 600px;
         font-size: 80px;
 
     }
