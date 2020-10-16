@@ -11,6 +11,7 @@ import AngryFace from '../images/angry_face.svg';
 import MonkeyPaw from '../images/MonkeyPaw.svg';
 import CPU from '../images/cpu.svg';
 import SquareThinker from '../images/SquareThinker.svg';
+import ChickenLaptop from '../images/ChickenLaptop.svg';
 
 import TechDebtQuadrant from '../images/techDebtQuadrants.svg';
 
@@ -148,6 +149,7 @@ const MainBody = (props) => {
             <h1 onClick={() => setExpandArt(!expandArt)}>Illustration {expandArt ? '▲' : '▼'}</h1>
             
             <img className={expandArt ? 'art' : 'hide'} src={SquareThinker} alt='Square Thinker Emoji'/>
+            <img className={expandArt ? 'art' : 'hide'} src={ChickenLaptop} alt='Chicken And Laptop'/>
             <img className={expandArt ? 'art' : 'hide'} src={CPU} alt='CPU In Hands'/>
             <img className={expandArt ? 'art' : 'hide'} src={AngryFace} alt='Angry Face'/>
             <img className={expandArt ? 'art' : 'hide'} src={MonkeyPaw} alt='Monkey Paw'/>
