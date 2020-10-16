@@ -122,8 +122,7 @@ p.lighter {
     font-weight: 1000;
     line-height: 11vw;
     background: rgb(187,187,187, 0.5);
-    background: linear-gradient(310deg, rgba(187,187,187,0) 55%, rgba(255,0,0,0.33) 90%);
-    border-top-left-radius: 2vw;
+    background: linear-gradient(310deg, rgba(187,187,187,0) 55%, rgba(255,0,0,0.67) 90%);
 
 }
 
@@ -252,7 +251,6 @@ p.lighter {
     .dropcap:first-letter {
 
         line-height: 9vw;
-        border-top-left-radius: 2vw;
     
     }
 
@@ -359,7 +357,6 @@ p.lighter {
         margin: 0 15px 0 -10px;
         font-size: 150px;
         line-height: 75px;
-        border-top-left-radius: 20px;
     
     }
 

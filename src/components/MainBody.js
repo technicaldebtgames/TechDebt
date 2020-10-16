@@ -10,6 +10,7 @@ import DesertTrees from '../images/DesertTrees.svg';
 import AngryFace from '../images/angry_face.svg';
 import MonkeyPaw from '../images/MonkeyPaw.svg';
 import CPU from '../images/cpu.svg';
+import SquareThinker from '../images/SquareThinker.svg';
 
 import TechDebtQuadrant from '../images/techDebtQuadrants.svg';
 
@@ -30,17 +31,9 @@ const MainBody = (props) => {
             <section className={expandAbout ? 'about' : 'hide'}>
                 <h3>Hi, I'm Dan.</h3>
                 <img className='inline-img-left' src={ProfileImage} alt='Dan Brioli' />
-                <p>Do you need <b>posts created for your tech or B2B blog</b> with <i>copy and illustrations that professionals will engage with?</i> Do you need to <b>explain technical topics clearly and effectively</b> to <i>a non-technical audience?</i> Do you need a <b>website or brand design</b> that <i>will blow people away?</i> Do you need to <b>create end user documentation</b> that <i>doesn't suck?</i></p>
-                <p>Well, guess what? <b>That's <i>exactly</i> what I do!</b></p>
-                <p>Leveraging my background in web development and software support, I'm a <b>tech writing consultant, illustrator, and designer</b> who would like to help you make your:</p>
-                <ul>
-                    <li>Tech or B2B blog engaging and compelling.</li>
-                    <li>Documentation understandable to users.</li>
-                    <li>Company designs and branding stand out.</li>
-                    <li>Tech job posts make sense to applicants.</li>
-                </ul>
-                <p><b>Contact me through my email or social links at the top of the page to get the conversation started!</b></p>
-                <p>Organizations I have written for:</p>
+                <p>I'm here to make your life easier with <b>copy and illustrations</b> for your tech or B2B blog, <b>design and development expertise</b> for your website or brand, and <b>clear and concise documentation</b> for your users.</p>
+                <p><a href='mailto:dan.s.brioli@gmail.com'>Send me an email</a> or visit my social links at the top of the page so we can work together on getting you results!</p>
+                <p><i>Organizations I've provided solutions for:</i></p>
                 <div className='logo-gallery'>
                     <img className='logo-gallery-img' src={BAELogo} alt='BAE Systems' />
                     <img className='logo-gallery-img' src={CelticLogo} alt='Celtic Healthcare' />
@@ -147,13 +140,14 @@ const MainBody = (props) => {
                 <p className='dropcap'>When it comes to <b>streaming</b>, <a href='https://obsproject.com/'>OBS</a> is the premier open-source solution you should be using. It has useful guides that you can actually find online quickly. It even has a wide range of very useful and powerful audio filters and tools. Its noise filter, for instance, is really, really good, especially for as easy as it is to use. Just turn it on. That's it, now it's working. Move the slider if you want, but it's probably fine as is. If you want to do any streaming, or even video capture with decent real-time screen fades and overlay effects, this is a tool you should be using. It's very high quality, and it will be able to do everything you want it to do. For the more complicated video production stuff, though...</p>
                 <p>Enter <a href='https://www.blackmagicdesign.com/products/davinciresolve/'>DaVinci Resolve</a>. While I have a much larger range of experience when it comes to audio production, and while I am relatively new to video production, this tool has been... Amazing. I mean, it's <b>a powerful and fully-featured video editing software title</b>... but <i>FREE</i>. I haven't been able to find anything that it CAN'T do. Its audio tools are top-of-the-line. Like OBS, it has some audio noise filter functionality that is really, REALLY good. Unlike OBS, if there are video editing or visual filters you want to use, this should be able to do it. This piece of software takes Final Cut to task. If you're making video content of any nature, please, by all means, start with Resolve.</p>
                 <h4>Outro</h4>
-                <p className='dropcap'>I won't lie - these aren't the only free software titles I have used over the years. There's no way I could go through that list without forgetting half of them and just absolutely <i>boring you to death</i>. These aren't even the only ones I use at present time. However, these free tools are the best that I have run into in their respective areas.</p>
+                <p className='dropcap'>These aren't the only free software titles I have used over the years. There's no way I could go through that list without forgetting half of them and just absolutely <i>boring you to death</i>. These aren't even the only ones I use at present time. However, these free tools are the best that I have run into in their respective areas.</p>
                 <p>If you use any of these, you might notice some quirky behavior. Some of these free products have been in development for <b>decades</b>. GIMP, Inkscape, and Audacity have been around for longer than some of you reading this have been alive. Their development history can carry some baggage. In comparison to newer products, such as Figma or OBS, they might display some strange and outdated behaviors - that much certainly is true. Please keep in mind that these products are still the top-of-the-line in freeware, created by teams of dedicated individuals making an attempt at providing content creators high quality tools, free of charge! These developers are the unsung heroes of the modern content creation era.</p>
                 <p><b>If you're looking to get started in any of the areas mentioned above, the software titles listed above should be your <i>first</i> downloads.</b> You'll usually find a series of intuitive, easy-to-use, and/or very powerful tools, all at no cost, that can get you professional results from immediately. Spend some time getting to know these tools!</p>
             </article>
             
             <h1 onClick={() => setExpandArt(!expandArt)}>Illustration {expandArt ? '▲' : '▼'}</h1>
             
+            <img className={expandArt ? 'art' : 'hide'} src={SquareThinker} alt='Square Thinker Emoji'/>
             <img className={expandArt ? 'art' : 'hide'} src={CPU} alt='CPU In Hands'/>
             <img className={expandArt ? 'art' : 'hide'} src={AngryFace} alt='Angry Face'/>
             <img className={expandArt ? 'art' : 'hide'} src={MonkeyPaw} alt='Monkey Paw'/>
@@ -163,26 +157,20 @@ const MainBody = (props) => {
 
             <section className={expandEstimate ? 'estimates' : 'hide'}>
                 <h3>Writing / Editing</h3>
-                <p><b>Blog, long (2k+):</b> $0.30/word</p>
-                <p><b>Blog, medium (~1k):</b> $0.25/word</p>
-                <p><b>Blog, short (~500):</b> $0.20/word</p>
-                <p><b>Newsletters:</b> $0.50/word</p>
-                <p><b>Proofreading:</b> $0.05/word</p>
-                <p><b>Revision of existing work:</b> By quote.</p>
-                <p><b>End user documentation:</b> By quote.</p>
-                <p><b>Technical documentation:</b> By quote.</p>
-                <p className='lighter'><i>Rates are negotiable based on requirements. Desired revision rounds, amount of research required, and other details may affect rates. Per-article rates may be available.</i></p>
+                <p><b>Blog, long (1k+):</b> $0.30/word</p>
+                <p><b>Blog, short (1k or less):</b> $0.20/word</p>
+                <p><b>Documentation (all types):</b> By quote.</p>
+                <p className='lighter'><i>Rates are negotiable based on requirements. Per-article or retainer rates may be available.</i></p>
                 <h3>Illustration / Design</h3>
-                <p><b>Individual illustration:</b> $100-$500</p>
+                <p><b>Illustrations:</b> $50-$500</p>
                 <p><b>Logo / brand design:</b> $500-$5,000</p>
-                <p><b>Letterhead / stationery:</b> $500-$2,500</p>
                 <p><b>Chart / data visualization:</b> By quote.</p>
                 <p><b>Web design / development:</b> By quote.</p>
-                <p className='lighter'><i>Rates are negotiable based on requirements. Desired revision rounds, rights management or release, and other details may affect rates.</i></p>
+                <p className='lighter'><i>Rates are negotiable based on requirements.</i></p>
                 <h3>Standard Terms</h3>
-                <p><b>Payment:</b> Net 15. This simply means payment is due 15 days after I send the invoice, which will be noted on the invoice itself. Invoices will be sent electronically to the email address on record for the account. A late payment fee of 10% of the invoice amount will be charged if payment is made after the agreed-upon date, and 10% non-compounding for each month after the payment due date. In some cases, full or partial payment may be requested before work begins, or at set intervals during the work.</p>
-                <p><b>Licensing:</b> As the work's creator, copyright is assigned by default. For writing or illustration work, you are purchasing the right to publish the work according to the terms of the contract, and I retain the full copyright. If you would like to purchase extended licensing or full ownership rights to the work, please note that this will change the rate quoted.</p>
-                <p className='lighter'><i>All terms are negotiable and full terms and conditions of the contract will be reviewed before work begins.</i></p>
+                <p><b>Payment:</b> Payment is due 15 days after I send the invoice. Invoices will be sent electronically to the email address on record. A late payment fee of 10% will be charged if payment is made after the agreed-upon date. A 10% non-compounding late fee will be applied for each month after payment due date. In some cases, full or partial payment may be requested before work begins.</p>
+                <p><b>Licensing:</b> As the work's creator, copyright is assigned by default. For writing or illustration work, you are purchasing first publishing rights, and I retain the full copyright. If you would like to purchase extended licensing or full ownership rights to the work, please note that this will change the quoted rate.</p>
+                <p className='lighter'><i>All terms are negotiable and full terms and conditions of the contract will be agreed upon before work begins.</i></p>
             </section>
         
         </div>
