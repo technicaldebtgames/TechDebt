@@ -17,10 +17,10 @@
 
 }
 
-.arrow-button span {
+.arrow-button img {
 
-    display: inline;
-    text-align: center;
+    width: 7.5vw;
+    margin: 1vw 0 0 0;
     cursor: pointer;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -33,6 +33,13 @@
 
         width: 450px;
         font-size: 80px;
+
+    }
+
+    .arrow-button img {
+
+        width: 75px;
+        margin: 10px 0 0 0;
 
     }
 

@@ -1,5 +1,8 @@
 import React from 'react';
 
+import RightPointer from '../images/RightPointer.svg';
+import LeftPointer from '../images/LeftPointer.svg';
+
 import './ArticleButtons.css';
 
 const ArticleButtons = (props) => {
@@ -9,11 +12,11 @@ const ArticleButtons = (props) => {
         <div className='ArticleButtons'>
 
             <div className='arrow-button'>
-                <span onClick={() => props.previousArticle()}>⯇</span>
+                <img src={LeftPointer} alt='Previous Article Button' onClick={() => props.previousArticle()} />
             </div>
 
             <div className='arrow-button'>
-                <span onClick={() => props.nextArticle()}>⯈</span>
+                <img src={RightPointer} alt='Next Article Button' onClick={() => props.nextArticle()} />
             </div>
 
         </div>
