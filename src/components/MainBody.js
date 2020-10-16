@@ -85,7 +85,7 @@ const MainBody = (props) => {
             <img className={expandArt ? 'art' : 'hide'} src={MonkeyPaw} alt='Monkey Paw'/>
             <img className={expandArt ? 'art' : 'hide'} src={DesertTrees} alt='Desert Trees'/>
 
-            <h1 onClick={() => setExpandEstimate(!expandEstimate)}>Pricing {expandEstimate ? '▲' : '▼'}</h1>
+            <h1 onClick={() => setExpandEstimate(!expandEstimate)}>Rates {expandEstimate ? '▲' : '▼'}</h1>
 
             <section className={expandEstimate ? 'estimates' : 'hide'}>
                 <h3>Writing / Editing</h3>
@@ -99,10 +99,6 @@ const MainBody = (props) => {
                 <p><b>Chart / data visualization:</b> By quote.</p>
                 <p><b>Web design / development:</b> By quote.</p>
                 <p className='lighter'><i>Rates are negotiable based on requirements.</i></p>
-                <h3>Standard Terms</h3>
-                <p><b>Payment:</b> Payment is due 15 days after I send the invoice. Invoices will be sent electronically to the email address on record. A late payment fee of 10% will be charged if payment is made after the agreed-upon date. A 10% non-compounding late fee will be applied for each month after payment due date. In some cases, full or partial payment may be requested before work begins.</p>
-                <p><b>Licensing:</b> As the work's creator, copyright is assigned by default. For writing or illustration work, you are purchasing first publishing rights, and I retain the full copyright. If you would like to purchase extended licensing or full ownership rights to the work, please note that this will change the quoted rate.</p>
-                <p className='lighter'><i>All terms are negotiable and full terms and conditions of the contract will be agreed upon before work begins.</i></p>
             </section>
         
         </div>
