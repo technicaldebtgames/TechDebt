@@ -11,13 +11,13 @@ const BrowsingButtons = (props) => {
 
         <div className='BrowsingButtons'>
 
-            <div className='arrow-button'>
-                <img src={LeftPointer} alt='Previous Item' onClick={() => props.previousItem()} />
-            </div>
+            <button className='arrow-button' aria-label='Previous Item' onClick={() => props.previousItem()} >
+                <img src={LeftPointer} alt='Previous Item' aria-hidden='true' />
+            </button>
 
-            <div className='arrow-button'>
-                <img src={RightPointer} alt='Next Item' onClick={() => props.nextItem()} />
-            </div>
+            <button className='arrow-button' aria-label='Next Item' onClick={() => props.nextItem()} >
+                <img src={RightPointer} alt='Next Item' aria-hidden='true' />
+            </button>
 
         </div>
 
