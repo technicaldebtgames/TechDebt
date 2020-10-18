@@ -12,7 +12,7 @@
 
 .arrow-button {
 
-    margin: 3vw 0;
+    margin: 0;
     width: 60vw;
     font-size: 8vw;
 
@@ -20,8 +20,8 @@
 
 .arrow-button img {
 
-    width: 7.5vw;
-    margin: 1vw 0 0 0;
+    width: 6.5vw;
+    margin: 1.1vw 0 0 0;
     cursor: pointer;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -32,7 +32,7 @@
 
     .arrow-button {
 
-        margin: 30px 0;
+        margin: 0;
         width: 600px;
         font-size: 80px;
 
@@ -40,8 +40,8 @@
 
     .arrow-button img {
 
-        width: 75px;
-        margin: 10px 0 0 0;
+        width: 65px;
+        margin: 11px 0 0 0;
 
     }
 
