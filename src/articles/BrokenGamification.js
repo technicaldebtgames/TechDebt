@@ -73,6 +73,7 @@ const BrokenGamification = (props) => {
             <h4>Focus On The Real Game</h4>
             <p><b>There's a game already being played that's called "employment".</b> It's an <i>abstraction</i> built around profit motives and the need to pay for things like food and shelter in the modern economy. <i>It's a well-known game</i> that has been played for thousands of years, so <i>everyone understands the strategies involved</i>. The points can be used to purchase whatever reward you want, too! You don't need to create a new company intranet portal with user authorization. Functionality doesn't need built to use those points to buy an extra day of remote work, or 2 hours of PTO, or tickets to the local cinema, or a gym membership, or a Slack emote. You don't need to invest a developer's time, and a business analyst's time, and HR's time to create it. <b>It's already there.</b></p>
             <p>Why make another game? Focus on optimizing the one that everyone is already playing before you try to gamify your workplace.</p>
+            <p>(<a href='https://medium.com/@danbrioli/how-i-ruined-my-bosss-attempt-at-gamification-729261677cbc'>Find this on Medium.</a>)</p>
         </article>
     );
 
