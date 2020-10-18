@@ -62,25 +62,32 @@ const MainBody = (props) => {
     return (
         <div className='MainBody'>
             
-            <h1 onClick={() => setExpandAbout(!expandAbout)}>Who I Am {expandAbout ? '▲' : '▼'}</h1>
-
+            <button className='header-button' onClick={() => setExpandAbout(!expandAbout)}>
+                <h1>Who I Am {expandAbout ? '▲' : '▼'}</h1>
+            </button>
             <section className={expandAbout ? 'about' : 'hide'}>
                 <About />
             </section>
             
-            <h1 onClick={() => setExpandWriting(!expandWriting)}>Writing {expandWriting ? '▲' : '▼'}</h1>
+            <button className='header-button' onClick={() => setExpandWriting(!expandWriting)}>
+                <h1>Writing {expandWriting ? '▲' : '▼'}</h1>
+            </button>
             <section className={expandWriting ? 'writing' : 'hide'}>
                 <BrowsingButtons previousItem={previousArticle} nextItem={nextArticle} />
                 {articles[currentArticle]()}
             </section>
             
-            <h1 onClick={() => setExpandArt(!expandArt)}>Illustration {expandArt ? '▲' : '▼'}</h1>
+            <button className='header-button' onClick={() => setExpandArt(!expandArt)}>
+                <h1>Illustration {expandArt ? '▲' : '▼'}</h1>
+            </button>
             <section className={expandArt ? '' : 'hide'}>
                 <BrowsingButtons previousItem={previousIllustration} nextItem={nextIllustration} />
                 <img className='art' src={illustrations[currentIllustration].src} alt={illustrations[currentIllustration].alt} />
             </section>
 
-            <h1 onClick={() => setExpandEstimate(!expandEstimate)}>Rates {expandEstimate ? '▲' : '▼'}</h1>
+            <button className='header-button' onClick={() => setExpandEstimate(!expandEstimate)}>
+                <h1>Rates {expandEstimate ? '▲' : '▼'}</h1>
+            </button>
             <section className={expandEstimate ? 'estimates' : 'hide'}>
                 <Rates />
             </section>
