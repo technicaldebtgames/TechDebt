@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 
-import BrokenGamification from '../articles/BrokenGamification';
-import TechnicalDebt from '../articles/TechnicalDebt';
-import FreeTools from '../articles/FreeTools';
+import Articles from '../articles';
 
 import About from './About';
 import ArticleButtons from './ArticleButtons';
@@ -20,7 +18,7 @@ const MainBody = (props) => {
 
     const [currentArticle, setCurrentArticle] = useState(0);
 
-    const articles = [BrokenGamification, TechnicalDebt, FreeTools];
+    const articles = Articles;
 
     const nextArticle = () => {
         if (currentArticle === articles.length - 1) {
