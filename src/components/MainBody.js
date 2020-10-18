@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 
 import Articles from '../articles';
+import Illustrations from '../illustrations';
 
 import About from './About';
-import ArticleButtons from './ArticleButtons';
-import Art from './Art';
+import BrowsingButtons from './BrowsingButtons';
 import Rates from './Rates';
 
 import './MainBody.css';
@@ -17,8 +17,10 @@ const MainBody = (props) => {
     const [expandEstimate, setExpandEstimate] = useState(false);
 
     const [currentArticle, setCurrentArticle] = useState(0);
+    const [currentIllustration, setCurrentIllustration] = useState(0);
 
     const articles = Articles;
+    const illustrations = Illustrations;
 
     const nextArticle = () => {
         if (currentArticle === articles.length - 1) {
@@ -38,6 +40,24 @@ const MainBody = (props) => {
         };
     };
 
+    const nextIllustration = () => {
+        if (currentIllustration === illustrations.length - 1) {
+            setCurrentIllustration(0);
+        }
+        else {
+            setCurrentIllustration(currentIllustration + 1);
+        };
+    };
+
+    const previousIllustration = () => {
+        if (currentIllustration === 0) {
+            setCurrentIllustration(illustrations.length - 1);
+        }
+        else {
+            setCurrentIllustration(currentIllustration - 1);
+        };
+    };
+
     return (
         <div className='MainBody'>
             
@@ -49,13 +69,14 @@ const MainBody = (props) => {
             
             <h1 onClick={() => setExpandWriting(!expandWriting)}>Writing {expandWriting ? '▲' : '▼'}</h1>
             <section className={expandWriting ? 'writing' : 'hide'}>
-                <ArticleButtons previousArticle={previousArticle} nextArticle={nextArticle} />
+                <BrowsingButtons previousItem={previousArticle} nextItem={nextArticle} />
                 {articles[currentArticle]()}
             </section>
             
             <h1 onClick={() => setExpandArt(!expandArt)}>Illustration {expandArt ? '▲' : '▼'}</h1>
             <section className={expandArt ? '' : 'hide'}>
-                <Art />
+                <BrowsingButtons previousItem={previousIllustration} nextItem={nextIllustration} />
+                <img className='art' src={illustrations[currentIllustration]} alt='Square Thinker Emoji'/>
             </section>
 
             <h1 onClick={() => setExpandEstimate(!expandEstimate)}>Rates {expandEstimate ? '▲' : '▼'}</h1>
