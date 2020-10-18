@@ -5,7 +5,6 @@ const BrokenGamification = (props) => {
     return (
         <article>
             <h3>How I Ruined My Boss's Attempt At Gamification</h3>
-            <p className='lighter'><i>(This article is still being edited and formatted, but in the meantime, please feel free to read it.)</i></p>
             <p><a href='https://en.wikipedia.org/wiki/Gamification'>Gamification</a> is... <i>tricky.</i></p>
             <p>I love games, in general, and in all their forms. Chess. Videogames. Sports. Card games. Logic puzzles. Just absolutely love 'em!</p>
             <h4>Why Am I Even Typing?</h4>
