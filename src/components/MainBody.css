@@ -51,6 +51,7 @@
 
 .MainBody h3 {
 
+    display: relative;
     margin: 0;
     padding: 8vw 10vw 4vw 10vw;
     font-size: 5vw;
