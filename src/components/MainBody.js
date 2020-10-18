@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import 'remove-focus-outline';
 
 import Articles from '../articles';
 import Illustrations from '../illustrations';
