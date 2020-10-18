@@ -76,7 +76,7 @@ const MainBody = (props) => {
             <h1 onClick={() => setExpandArt(!expandArt)}>Illustration {expandArt ? '▲' : '▼'}</h1>
             <section className={expandArt ? '' : 'hide'}>
                 <BrowsingButtons previousItem={previousIllustration} nextItem={nextIllustration} />
-                <img className='art' src={illustrations[currentIllustration]} alt='Square Thinker Emoji'/>
+                <img className='art' src={illustrations[currentIllustration].src} alt={illustrations[currentIllustration].alt} />
             </section>
 
             <h1 onClick={() => setExpandEstimate(!expandEstimate)}>Rates {expandEstimate ? '▲' : '▼'}</h1>
