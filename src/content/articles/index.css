@@ -1,0 +1,44 @@
+article {
+    margin: 0;
+    padding: 0 0 1vw 0;
+    background-color: #EEEEEE;
+}
+
+.article-illustration-medium {
+    width: 70vw;
+    max-width: 450px;
+}
+
+.dropcap:first-letter {
+    margin: 0 1.5vw 0 -1vw;
+    float: left;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 18vw;
+    font-weight: 1000;
+    line-height: 11vw;
+    background: rgb(187,187,187, 0.5);
+    background: linear-gradient(310deg, rgba(187,187,187,0) 55%, rgba(255,0,0,0.67) 90%);
+}
+
+@media only screen and (min-width: 600px) {
+
+    .dropcap:first-letter {
+        line-height: 9vw;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    .MainBody article {
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+
+    .dropcap:first-letter {
+        margin: 0 15px 0 -10px;
+        font-size: 150px;
+        line-height: 75px;
+    }
+
+}

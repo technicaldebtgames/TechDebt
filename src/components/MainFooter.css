@@ -1,13 +1,10 @@
 .MainFooter {
-
     display: block;
     margin: 0 auto;
     padding: 25vw 0;
-
 }
 
 .MainFooter p {
-
     margin: 0.5vw auto;
     padding: 0 22vw 0 0;
     color: #AAAAAA;
@@ -15,23 +12,18 @@
     font-family: 'Ubuntu Mono', monospace;
     font-weight: 400;
     font-size: 2vw;
-
 }
 
 @media only screen and (min-width: 1000px) {
 
     .MainFooter {
-
         padding: 250px 0;
-    
     }
 
     .MainFooter p {
-
         margin: 5px auto;
         padding: 0 calc(calc(50% - 900px) + 630px) 0 0;
         font-size: 20px;
-    
     }
 
 }

@@ -3,8 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Ubuntu+Mono&display=swap');
 
 body {
-  display: block;
-  margin: 0 auto;
-  background-color: black;
-  color: white;
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
 }

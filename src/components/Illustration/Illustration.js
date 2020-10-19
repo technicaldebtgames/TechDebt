@@ -33,7 +33,7 @@ const Illustration = (props) => {
 
     return (
         <div className='Illustration'>
-            <button className='header-button' onClick={() => setExpandIllustration(!expandIllustration)}>
+            <button className='header-btn' onClick={() => setExpandIllustration(!expandIllustration)}>
                 <h1>Illustration {expandIllustration ? '▲' : '▼'}</h1>
             </button>
             <div className={expandIllustration ? 'IllustrationContent' : 'hide'}>

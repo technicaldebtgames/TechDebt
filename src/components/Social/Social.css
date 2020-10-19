@@ -1,33 +1,25 @@
 .Social {
-
     margin: -20vw 22.5% 0 22.5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .Social img {
-
     width: 10vw;
     filter: invert(100%) brightness(95%);
-
 }
 
 .Social img:hover {
-
     filter: invert(100%) brightness(70%);
-
 }
 
 @media only screen and (min-width: 500px) {
 
     .Social img {
-
         width: 50px;
-    
     }
 
 }
@@ -35,10 +27,8 @@
 @media only screen and (min-width: 1000px) {
 
     .Social {
-
         margin: -200px calc(calc(50% - 900px) + 630px) 0 calc(50% - 270px);
         justify-content: space-between;
-
     }
 
 }

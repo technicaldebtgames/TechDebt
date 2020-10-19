@@ -8,7 +8,7 @@ const Rates = (props) => {
 
     return (
         <div className='Rates'>
-            <button className='header-button' onClick={() => setExpandRates(!expandRates)}>
+            <button className='header-btn' onClick={() => setExpandRates(!expandRates)}>
                 <h1>Rates {expandRates ? '▲' : '▼'}</h1>
             </button>
             <div className={expandRates ? 'RatesContent' : 'hide'}>

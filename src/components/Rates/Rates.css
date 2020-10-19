@@ -1,23 +1,30 @@
 .MainBody .RatesContent {
-
     padding: 0 0 1vw 0;
     background-color: #EEEEEE;
-
 }
 
 .MainBody .RatesContent p {
-
     margin: 2vw auto;
+}
 
+p.lighter {
+    padding: 4vw 0 4vw 10vw;
+    color: #777;
+    font-size: 4vw;
+    line-height: 4.5vw;
 }
 
 @media only screen and (min-width: 600px) {
 
     .MainBody .RatesContent p {
-    
         font-size: 4vw;
         line-height: 6vw;
-    
+    }
+
+    p.lighter {
+        padding: 3.5vw 0 3.5vw 10vw;
+        font-size: 3.5vw;
+        line-height: 4vw;
     }
 
 }
@@ -25,17 +32,19 @@
 @media only screen and (min-width: 1000px) {
 
     .MainBody .RatesContent {
-
         padding: 0 0 10px 0;
-
     }
 
     .MainBody .RatesContent p {
-    
         margin: 20px auto;
         font-size: 30px;
         line-height: 50px;
-    
+    }
+
+    p.lighter {
+        padding: 35px 0 35px 100px;
+        font-size: 20px;
+        line-height: 30px;
     }
 
 }

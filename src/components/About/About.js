@@ -11,7 +11,7 @@ const About = (props) => {
     return (
         
         <div className='About'>
-            <button className='header-button' onClick={() => setExpandAbout(!expandAbout)}>
+            <button className='header-btn' onClick={() => setExpandAbout(!expandAbout)}>
                 <h1>Who I Am {expandAbout ? '▲' : '▼'}</h1>
             </button>
             <div className={expandAbout ? 'AboutContent' : 'hide'}>

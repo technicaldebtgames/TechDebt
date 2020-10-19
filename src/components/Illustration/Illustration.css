@@ -1,0 +1,19 @@
+.IllustrationContent .art {
+    display: block;
+    margin: 10vw auto 0 auto;
+    width: 90vw;
+    max-width: 1000px;
+    border-style: solid;
+    border-width: 1vw;
+    border-color: white;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .IllustrationContent .art {
+        margin: 100px auto 0 auto;
+        width: 900px;
+        border-width: 10px;
+    }
+
+}

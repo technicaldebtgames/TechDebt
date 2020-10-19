@@ -33,8 +33,8 @@ const Writing = (props) => {
 
     return (
         <div className='Writing'>
-            <button className='header-button' onClick={() => setExpandWriting(!expandWriting)}>
-                <h1>Writing {expandWriting ? '▲' : '▼'}</h1>
+            <button className='header-btn' onClick={() => setExpandWriting(!expandWriting)}>
+                <h1 className='header-btn-text'>Writing {expandWriting ? '▲' : '▼'}</h1>
             </button>
             <div className={expandWriting ? 'Writing' : 'hide'}>
                 <BrowsingButtons previousItem={previousArticle} nextItem={nextArticle} />

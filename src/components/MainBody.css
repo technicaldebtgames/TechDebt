@@ -1,22 +1,17 @@
 .MainBody {
-
     margin: 0 0 15vw 0;
     text-align: center;
     font-family: 'Ubuntu Mono', monospace;
-
 }
 
-.header-button {
-
+.header-btn {
     width: 100%;
     margin: 10vw 0 0 0;
     border-style: none;
     background-color: #EEEEEE;
-
 }
 
-.MainBody h1 {
-
+.header-btn h1 {
     margin-block-start: 0;
     margin-block-end: 0;
     padding: 1vw 22vw 1vw 0;
@@ -26,18 +21,9 @@
     cursor: pointer;
     -moz-user-select: none;
     -webkit-user-select: none;
-
-}
-
-.MainBody h2 {
-
-    margin: 10vw 0;
-    font-size: 4vw;
-
 }
 
 .MainBody h3 {
-
     display: relative;
     margin: 0;
     padding: 8vw 10vw 4vw 10vw;
@@ -46,11 +32,9 @@
     color: #111111;
     background: #AAAAAA;
     background: linear-gradient(0deg, rgba(238,238,238,1) 75%, rgba(170,170,170,1) 100%);
-
 }
 
 .MainBody h4 {
-
     padding: 6vw 0 3vw 0;
     font-size: 4.5vw;
     font-weight: 400;
@@ -58,32 +42,9 @@
     color: #222222;
     background-color: #BBBBBB;
     background: linear-gradient(0deg, rgba(238,238,238,1) 75%, rgba(187,187,187,1) 100%);
-
-}
-
-.MainBody article {
-
-    margin: 0;
-    padding: 0 0 1vw 0;
-    background-color: #EEEEEE;
-
-}
-
-.MainBody li {
-
-    margin: 0 0 0 10vw;
-    font-family: 'Assistant', sans-serif;
-    font-size: 4vw;
-    font-style: italic;
-    text-align: left;
-    width: 80vw;
-    max-width: 800px;
-    color: #111111;
-
 }
 
 .MainBody p {
-
     margin: 5vw auto;
     font-family: 'Assistant', sans-serif;
     font-size: 4.5vw;
@@ -92,115 +53,25 @@
     max-width: 800px;
     text-align: left;
     color: #111111;
-
-}
-
-p.lighter {
-
-  padding: 4vw 0 4vw 10vw;
-  color: #777;
-  font-size: 4vw;
-  line-height: 4.5vw;
-
-}
-
-.dropcap:first-letter {
-
-    margin: 0 1.5vw 0 -1vw;
-    float: left;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 18vw;
-    font-weight: 1000;
-    line-height: 11vw;
-    background: rgb(187,187,187, 0.5);
-    background: linear-gradient(310deg, rgba(187,187,187,0) 55%, rgba(255,0,0,0.67) 90%);
-
-}
-
-.MainBody .mono {
-
-    margin: 3vw auto;
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 4.5vw;
-    line-height: 6vw;
-    width: 90vw;
-    max-width: 900px;
-    text-align: left;
-    color: #111111;
-
 }
 
 .MainBody a {
-
     color:#DD0000;
-
 }
 
 .MainBody a:visited {
-
     color: #990000;
-
 }
 
 .MainBody a:hover {
-
     color: #BB0000;
-
-}
-
-.IllustrationContent .art {
-
-    display: block;
-    margin: 10vw auto 0 auto;
-    width: 90vw;
-    max-width: 1000px;
-    border-style: solid;
-    border-width: 1vw;
-    border-color: white;
-
-}
-
-.hide {
-
-    display: none;
-
 }
 
 @media only screen and (min-width: 600px) {
 
-    .MainBody li {
-
-        margin: 0 0 0 12.5vw;
-        font-size: 3.5vw;
-
-    }
-
     .MainBody p {
-
-    font-size: 4vw;
-    line-height: 6vw;
-
-    }
-    
-    p.lighter {
-    
-        padding: 3.5vw 0 3.5vw 10vw;
-        font-size: 3.5vw;
-        line-height: 4vw;
-    
-    }
-    
-    .dropcap:first-letter {
-
-        line-height: 9vw;
-    
-    }
-
-    .MainBody .mono {
-
         font-size: 4vw;
-        line-height: 5.5vw;
-
+        line-height: 6vw;
     }
 
 }
@@ -208,98 +79,33 @@ p.lighter {
 @media only screen and (min-width: 1000px) {
 
     .MainBody {
-
         margin-bottom: 150px;
-
     }
 
-    .header-button {
-
+    .header-btn {
         width: 100%;
         margin: 100px 0 0 0;
-    
     }
 
-    .MainBody h1 {
-
+    .header-btn h1 {
         padding: 10px calc(calc(50% - 900px) + 630px) 10px 0;
         font-size: 60px;
-
-    }
-
-    .MainBody h2 {
-
-        margin: 100px 0;
-        font-size: 40px;
-
     }
     
     .MainBody h3 {
-
         padding: 80px 100px 40px 100px;
         font-size: 50px;
-    
     }
 
     .MainBody h4 {
-
         padding: 60px 0 30px 0;
         font-size: 45px;
-    
-    }
-    
-    .MainBody article {
-
-        margin: 0;
-        padding: 0 0 10px 0;
-    
-    }
-
-    .MainBody li {
-
-        margin: 0 0 0 calc(50% - 325px);
-        font-size: 25px;
-
     }
 
     .MainBody p {
-
         margin: 50px auto;
         font-size: 30px;
         line-height: 50px;
-    
-    }
-    
-    p.lighter {
-    
-        padding: 35px 0 35px 100px;
-        font-size: 20px;
-        line-height: 30px;
-    
-    }
-
-    .dropcap:first-letter {
-
-        margin: 0 15px 0 -10px;
-        font-size: 150px;
-        line-height: 75px;
-    
-    }
-
-    .MainBody .mono {
-
-        margin: 30px auto;
-        font-size: 30px;
-        line-height: 45px;
-    
-    }
-
-    .IllustrationContent .art {
-
-        margin: 100px auto 0 auto;
-        width: 900px;
-        border-width: 10px;
-
     }
 
 }
