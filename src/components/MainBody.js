@@ -15,7 +15,7 @@ const MainBody = (props) => {
     const [expandAbout, setExpandAbout] = useState(false);
     const [expandWriting, setExpandWriting] = useState(false);
     const [expandArt, setExpandArt] = useState(false);
-    const [expandEstimate, setExpandEstimate] = useState(false);
+    const [expandRates, setExpandRates] = useState(false);
 
     const [currentArticle, setCurrentArticle] = useState(0);
     const [currentIllustration, setCurrentIllustration] = useState(0);
@@ -85,10 +85,10 @@ const MainBody = (props) => {
                 <img className='art' src={illustrations[currentIllustration].src} alt={illustrations[currentIllustration].alt} />
             </section>
 
-            <button className='header-button' onClick={() => setExpandEstimate(!expandEstimate)}>
-                <h1>Rates {expandEstimate ? '▲' : '▼'}</h1>
+            <button className='header-button' onClick={() => setExpandRates(!expandRates)}>
+                <h1>Rates {expandRates ? '▲' : '▼'}</h1>
             </button>
-            <section className={expandEstimate ? 'estimates' : 'hide'}>
+            <section className={expandRates ? 'Rates' : 'hide'}>
                 <Rates />
             </section>
         

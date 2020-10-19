@@ -44,7 +44,7 @@
 
 }
 
-.MainBody .estimates {
+.MainBody .Rates {
 
     padding: 0 0 1vw 0;
     background-color: #EEEEEE;
@@ -109,7 +109,7 @@
 
 }
 
-.estimates p {
+.Rates p {
 
     margin: 2vw auto;
 
@@ -178,7 +178,7 @@ p.lighter {
 .art {
 
     display: block;
-    margin: 10vw auto;
+    margin: 10vw auto 0 auto;
     width: 90vw;
     max-width: 1000px;
     border-style: solid;
@@ -187,12 +187,12 @@ p.lighter {
 
 }
 
-.inline-img-left {
+.profile-img {
 
-    margin: 3vw 5vw 1vw 12vw;
-    width: 32.5vw;
+    margin: 7.5vw 5vw 1vw 12vw;
+    width: 40vw;
     float: left;
-    border-radius: 2vw;
+    border-radius: 0.5vw;
 
 }
 
@@ -238,7 +238,7 @@ p.lighter {
 
     }
 
-    .estimates p {
+    .Rates p {
     
         font-size: 4vw;
         line-height: 6vw;
@@ -266,11 +266,12 @@ p.lighter {
 
     }
     
-    .inline-img-left {
+    .profile-img {
 
+        width: 30vw;
+        margin-top: 8vw;
         margin-left: 12.5vw;
         margin-right: 4vw;
-        width: 30vw;
     
     }
 
@@ -312,7 +313,7 @@ p.lighter {
     
     }
 
-    .MainBody .estimates {
+    .MainBody .Rates {
 
         padding: 0 0 10px 0;
 
@@ -347,7 +348,7 @@ p.lighter {
     
     }
 
-    .estimates p {
+    .Rates p {
     
         margin: 20px auto;
         font-size: 30px;
@@ -381,17 +382,16 @@ p.lighter {
 
     .art {
 
-        margin: 100px auto;
+        margin: 100px auto 0 auto;
         width: 900px;
         border-width: 10px;
 
     }
 
-    .inline-img-left {
+    .profile-img {
 
-        margin: 25px 35px 10px calc(50% - 375px);
+        margin: 77px 35px 10px calc(50% - 375px);
         width: 250px;
-        border-radius: 20px;
     
     }
 
