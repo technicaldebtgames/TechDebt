@@ -36,28 +36,6 @@
 
 }
 
-.MainBody article {
-
-    margin: 0;
-    padding: 0 0 1vw 0;
-    background-color: #EEEEEE;
-
-}
-
-.MainBody .Rates {
-
-    padding: 0 0 1vw 0;
-    background-color: #EEEEEE;
-
-}
-
-.MainBody .about {
-
-    padding: 0 0 1vw 0;
-    background-color: #EEEEEE;
-
-}
-
 .MainBody h3 {
 
     display: relative;
@@ -80,6 +58,14 @@
     color: #222222;
     background-color: #BBBBBB;
     background: linear-gradient(0deg, rgba(238,238,238,1) 75%, rgba(187,187,187,1) 100%);
+
+}
+
+.MainBody article {
+
+    margin: 0;
+    padding: 0 0 1vw 0;
+    background-color: #EEEEEE;
 
 }
 
@@ -106,12 +92,6 @@
     max-width: 800px;
     text-align: left;
     color: #111111;
-
-}
-
-.Rates p {
-
-    margin: 2vw auto;
 
 }
 
@@ -168,14 +148,7 @@ p.lighter {
 
 }
 
-.illustration-medium {
-
-    width: 70vw;
-    max-width: 450px;
-
-}
-
-.art {
+.IllustrationContent .art {
 
     display: block;
     margin: 10vw auto 0 auto;
@@ -184,26 +157,6 @@ p.lighter {
     border-style: solid;
     border-width: 1vw;
     border-color: white;
-
-}
-
-.logo-gallery {
-
-    margin: 0 auto 3vw auto;
-    width: 80vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-.logo-gallery-img {
-
-    margin: 1vw;
-    object-fit: contain;
-    max-width: 40vw;
 
 }
 
@@ -227,13 +180,6 @@ p.lighter {
     font-size: 4vw;
     line-height: 6vw;
 
-    }
-
-    .Rates p {
-    
-        font-size: 4vw;
-        line-height: 6vw;
-    
     }
     
     p.lighter {
@@ -288,19 +234,6 @@ p.lighter {
 
     }
     
-    .MainBody article {
-
-        margin: 0;
-        padding: 0 0 10px 0;
-    
-    }
-
-    .MainBody .Rates {
-
-        padding: 0 0 10px 0;
-
-    }
-    
     .MainBody h3 {
 
         padding: 80px 100px 40px 100px;
@@ -314,6 +247,13 @@ p.lighter {
         font-size: 45px;
     
     }
+    
+    .MainBody article {
+
+        margin: 0;
+        padding: 0 0 10px 0;
+    
+    }
 
     .MainBody li {
 
@@ -325,14 +265,6 @@ p.lighter {
     .MainBody p {
 
         margin: 50px auto;
-        font-size: 30px;
-        line-height: 50px;
-    
-    }
-
-    .Rates p {
-    
-        margin: 20px auto;
         font-size: 30px;
         line-height: 50px;
     
@@ -362,24 +294,12 @@ p.lighter {
     
     }
 
-    .art {
+    .IllustrationContent .art {
 
         margin: 100px auto 0 auto;
         width: 900px;
         border-width: 10px;
 
-    }
-
-    .logo-gallery {
-
-        margin: 0 auto 30px auto;
-
-    }
-
-    .logo-gallery-img {
-
-        margin: 10px;
-    
     }
 
 }

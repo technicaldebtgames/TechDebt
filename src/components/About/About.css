@@ -1,4 +1,11 @@
-.profile-img {
+.MainBody .AboutContent {
+
+    padding: 0 0 1vw 0;
+    background-color: #EEEEEE;
+
+}
+
+.MainBody .AboutContent .profile-img {
 
     margin: 7.5vw 5vw 1vw 12vw;
     width: 40vw;
@@ -9,7 +16,7 @@
 
 @media only screen and (min-width: 600px) {
     
-    .profile-img {
+    .MainBody .AboutContent .profile-img {
 
         width: 30vw;
         margin-top: 8vw;
@@ -22,7 +29,7 @@
 
 @media only screen and (min-width: 1000px) {
 
-    .profile-img {
+    .MainBody .AboutContent .profile-img {
 
         margin: 77px 35px 10px calc(50% - 375px);
         width: 250px;

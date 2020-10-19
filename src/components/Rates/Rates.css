@@ -1,0 +1,41 @@
+.MainBody .RatesContent {
+
+    padding: 0 0 1vw 0;
+    background-color: #EEEEEE;
+
+}
+
+.MainBody .RatesContent p {
+
+    margin: 2vw auto;
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    .MainBody .RatesContent p {
+    
+        font-size: 4vw;
+        line-height: 6vw;
+    
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .MainBody .RatesContent {
+
+        padding: 0 0 10px 0;
+
+    }
+
+    .MainBody .RatesContent p {
+    
+        margin: 20px auto;
+        font-size: 30px;
+        line-height: 50px;
+    
+    }
+
+}
