@@ -8,7 +8,11 @@
     width: 100%;
     margin: 10vw 0 0 0;
     border-style: none;
-    background-color: #EEEEEE;
+    background-color: #EEE;
+}
+
+.MainBody .header-btn:hover {
+    background-color: #DDD;
 }
 
 .MainBody .header-btn h1 {
