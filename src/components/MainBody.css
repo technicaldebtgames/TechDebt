@@ -4,17 +4,18 @@
     font-family: 'Ubuntu Mono', monospace;
 }
 
-.header-btn {
+.MainBody .header-btn {
     width: 100%;
     margin: 10vw 0 0 0;
     border-style: none;
     background-color: #EEEEEE;
 }
 
-.header-btn h1 {
+.MainBody .header-btn h1 {
     margin-block-start: 0;
     margin-block-end: 0;
     padding: 1vw 22vw 1vw 0;
+    font-family: 'Ubuntu Mono', monospace;
     font-size: 6vw;
     text-align: right;
     color: black;
@@ -82,12 +83,12 @@
         margin-bottom: 150px;
     }
 
-    .header-btn {
+    .MainBody .header-btn {
         width: 100%;
         margin: 100px 0 0 0;
     }
 
-    .header-btn h1 {
+    .MainBody .header-btn h1 {
         padding: 10px calc(calc(50% - 900px) + 630px) 10px 0;
         font-size: 60px;
     }
