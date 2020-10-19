@@ -2,6 +2,8 @@ import React from 'react';
 
 import ProfileImage from './db_profile_512.jpg';
 
+import './About.css';
+
 const About = (props) => {
 
     return (

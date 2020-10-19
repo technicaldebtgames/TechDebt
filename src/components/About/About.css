@@ -1,0 +1,32 @@
+.profile-img {
+
+    margin: 7.5vw 5vw 1vw 12vw;
+    width: 40vw;
+    float: left;
+    border-radius: 0.5vw;
+
+}
+
+@media only screen and (min-width: 600px) {
+    
+    .profile-img {
+
+        width: 30vw;
+        margin-top: 8vw;
+        margin-left: 12.5vw;
+        margin-right: 4vw;
+    
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .profile-img {
+
+        margin: 77px 35px 10px calc(50% - 375px);
+        width: 250px;
+    
+    }
+
+}
