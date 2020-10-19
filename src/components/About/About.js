@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProfileImage from '../images/db_profile_512.jpg';
+import ProfileImage from './db_profile_512.jpg';
 
 const About = (props) => {
 

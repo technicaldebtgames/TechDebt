@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import 'remove-focus-outline';
 
-import Articles from '../articles';
-import Illustrations from '../illustrations';
+import Articles from '../content/articles';
+import Illustrations from '../content/illustrations';
 
-import About from './About';
-import BrowsingButtons from './BrowsingButtons';
+import About from './About/About';
+import BrowsingButtons from './BrowsingButtons/BrowsingButtons';
 import Rates from './Rates';
 
 import './MainBody.css';

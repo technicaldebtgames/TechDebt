@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Envelope from '../images/envelope.svg';
-import Github from '../images/github.svg';
-import LinkedIn from '../images/linked-in.svg';
-import Twitter from '../images/twitter.svg';
+import Envelope from './envelope.svg';
+import Github from './github.svg';
+import LinkedIn from './linked-in.svg';
+import Twitter from './twitter.svg';
 
 import './Social.css';
 

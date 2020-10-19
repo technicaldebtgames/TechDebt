@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TechDebtQuadrant from '../images/techDebtQuadrants.svg';
+import TechDebtQuadrant from './techDebtQuadrants.svg';
 
 const TechnicalDebt = (props) => {
 

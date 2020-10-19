@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Social from './Social';
+import Social from './Social/Social';
 
-import TechDebtLips from '../images/TechDebtLips.svg';
+import TechDebtLips from './TechDebtLips.svg';
 
 import './MainHeader.css';
 

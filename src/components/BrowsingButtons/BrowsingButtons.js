@@ -1,7 +1,7 @@
 import React from 'react';
 
-import RightPointer from '../images/RightPointer.svg';
-import LeftPointer from '../images/LeftPointer.svg';
+import RightPointer from './RightPointer.svg';
+import LeftPointer from './LeftPointer.svg';
 
 import './BrowsingButtons.css';
 
