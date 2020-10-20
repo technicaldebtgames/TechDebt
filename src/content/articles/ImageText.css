@@ -1,0 +1,33 @@
+.text-bg {
+
+    margin: 0 auto;
+    background: url(space.jpg);
+    width: 70vw;
+    max-width: 700px;
+    height: 12vw;
+    max-height: 120px;
+
+}
+
+.text-bg-p {
+
+    padding: 3vw 0 5vw 0 !important;
+    font-family: 'Ubuntu Mono', monospace !important;
+    font-size: 15vw !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.15em !important;
+    background-color: #EEE;
+    mix-blend-mode: lighten;
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .text-bg-p {
+
+        padding: 30px 0 50px 0 !important;
+        font-size: 150px !important;
+
+    }
+
+}
