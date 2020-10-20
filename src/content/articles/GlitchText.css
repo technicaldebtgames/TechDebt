@@ -10,8 +10,28 @@
     text-transform: uppercase !important;
     animation: glitch-color 2500ms infinite !important;
   }
+
+  .glitch-red {
+    position: relative !important;
+    margin: 1vw !important;
+    font-family: 'Ubuntu Mono', monospace !important;
+    font-size: 7.5vw !important;
+    font-weight: 600 !important;
+    color: #220000 !important;
+    text-transform: uppercase !important;
+    animation: glitch-color-red 2500ms infinite !important;
+  }
   
   .glitch span {
+    position: absolute !important;
+    margin: auto !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+  }
+
+  .glitch-red span {
     position: absolute !important;
     margin: auto !important;
     top: 0 !important;
@@ -24,9 +44,19 @@
     animation: glitch-color 1750ms infinite !important;
     animation: glitch-clip-a 850ms infinite !important;
   }
+
+  .glitch-red span:first-child {
+    animation: glitch-color-red 1750ms infinite !important;
+    animation: glitch-clip-a 850ms infinite !important;
+  }
   
   .glitch span:last-child {
     animation: glitch-color 1300ms infinite !important;
+    animation: glitch-clip-b 1030ms infinite !important;
+  }
+
+  .glitch-red span:last-child {
+    animation: glitch-color-red 1300ms infinite !important;
     animation: glitch-clip-b 1030ms infinite !important;
   }
   
@@ -94,6 +124,74 @@
     100% {
       text-shadow: -0.15vw -0.095vw 0 rgba(0, 255, 0, 0.8),
       0.095vw 0.15vw 0 rgba(0, 0, 255, 0.8),
+      0.15vw 0.095vw 0 rgba(255, 0, 0, 0.8);
+    }
+  }
+
+  @keyframes glitch-color-red {
+    0% {
+      text-shadow: -0.15vw -0.095vw 0 rgba(75, 0, 0, 0.8),
+      0.095vw 0.15vw 0 rgba(150, 0, 0, 0.8),
+      0.15vw 0.095vw 0 rgba(255, 0, 0, 0.8);
+    }
+    19% {
+      text-shadow: -0.15vw -0.095vw 0 rgba(75, 0, 0, 0.8),
+      0.095vw 0.15vw 0 rgba(150, 0, 0, 0.8),
+      0.15vw 0.095vw 0 rgba(255, 0, 0, 0.8);
+    }
+    20% {
+      text-shadow: -0.095vw -0.15vw 0 rgba(75, 0, 0, 0.8),
+      0.15vw 0.095vw 0 rgba(150, 0, 0, 0.8),
+      0.095vw 0.15vw 0 rgba(255, 0, 0, 0.8);
+    }
+    34% {
+      text-shadow: -0.095vw -0.15vw 0 rgba(75, 0, 0, 0.8),
+      0.15vw 0.095vw 0 rgba(150, 0, 0, 0.8),
+      0.095vw 0.15vw 0 rgba(255, 0, 0, 0.8);
+    }
+    35% {
+      text-shadow: 0.15vw 0.095vw 0 rgba(75, 0, 0, 0.8),
+      -0.095vw -0.15vw 0 rgba(150, 0, 0, 0.8),
+      -0.15vw -0.095vw 0 rgba(255, 0, 0, 0.8);
+    }
+    59% {
+      text-shadow: 0.15vw 0.095vw 0 rgba(75, 0, 0, 0.8),
+      -0.095vw -0.15vw 0 rgba(150, 0, 0, 0.8),
+      -0.15vw -0.095vw 0 rgba(255, 0, 0, 0.8);
+    }
+    60% {
+      text-shadow: -0.15vw 0.15vw 0 rgba(75, 0, 0, 0.8),
+      -0.095vw 0.095vw 0 rgba(150, 0, 0, 0.8),
+      0.095vw -0.15vw 0 rgba(255, 0, 0, 0.8);
+    }
+    74% {
+      text-shadow: -0.15vw 0.15vw 0 rgba(75, 0, 0, 0.8),
+      -0.095vw 0.095vw 0 rgba(150, 0, 0, 0.8),
+      0.095vw -0.15vw 0 rgba(255, 0, 0, 0.8);
+    }
+    75% {
+      text-shadow: -0.095vw -0.15vw 0 rgba(75, 0, 0, 0.8),
+      0.15vw -0.15vw 0 rgba(150, 0, 0, 0.8),
+      -0.15vw 0.15vw 0 rgba(255, 0, 0, 0.8);
+    }
+    84% {
+      text-shadow: -0.095vw -0.15vw 0 rgba(75, 0, 0, 0.8),
+      0.15vw -0.15vw 0 rgba(150, 0, 0, 0.8),
+      -0.15vw 0.15vw 0 rgba(255, 0, 0, 0.8);
+    }
+    85% {
+      text-shadow: 0.095vw -0.095vw 0 rgba(75, 0, 0, 0.8),
+      -0.095vw 0.095vw 0 rgba(150, 0, 0, 0.8),
+      -0.15vw 0.15vw 0 rgba(255, 0, 0, 0.8);
+    }
+    99% {
+      text-shadow: 0.095vw -0.095vw 0 rgba(75, 0, 0, 0.8),
+      -0.095vw 0.095vw 0 rgba(150, 0, 0, 0.8),
+      -0.15vw 0.15vw 0 rgba(255, 0, 0, 0.8);
+    }
+    100% {
+      text-shadow: -0.15vw -0.095vw 0 rgba(75, 0, 0, 0.8),
+      0.095vw 0.15vw 0 rgba(150, 0, 0, 0.8),
       0.15vw 0.095vw 0 rgba(255, 0, 0, 0.8);
     }
   }
