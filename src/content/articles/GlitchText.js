@@ -31,7 +31,7 @@ const GlitchText = (props) => {
                 <span aria-hidden='true'>BOO!</span>
             </span>
             <p>Check out the code below to see how it's done:</p>
-            <p><i>(Note: I noticed some strange effects in Firefox when using vw units as font-size, and guess what? It was because I forget to use <a href='https://necolas.github.io/normalize.css/'>normalize.css</a>! I think I have a new article to write about why you should use it!)</i></p>
+            <p><i>(Note: I noticed some strange effects in Firefox when using vw units as font-size, and guess what? It was because I forgot to use <a href='https://necolas.github.io/normalize.css/'>normalize.css</a>! I think I have a new article to write about why you should use it! In the meantime, make sure you are normalizing your css, so that user agent styles don't surprise you with random selector property overrides and specificity issues. It'll save you a lot of time debugging your styles in all of the modern browsers you have to test!)</i></p>
             <code className='code-block'>
                 <b><i>html:</i></b><br/><br/>
                 &#60;span className='glitch'&#62;<br/>&nbsp;&nbsp;&#60;span aria-hidden='true'&#62;Glitch text&#60;/span&#62;<br/>&nbsp;&nbsp;Glitch text<br/>&nbsp;&nbsp;&#60;span aria-hidden='true'&#62;Glitch text&#60;/span&#62;<br/>&#60;/span&#62;<br/><br/>
