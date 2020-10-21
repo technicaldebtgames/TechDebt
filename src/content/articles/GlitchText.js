@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 
 import './GlitchText.css';
@@ -30,6 +31,7 @@ const GlitchText = (props) => {
                 <span aria-hidden='true'>BOO!</span>
             </span>
             <p>Check out the code below to see how it's done:</p>
+            <p><i>(Note: I noticed some strange effects in Firefox when using vw units as font-size, and guess what? It was because I forget to use <a href='https://necolas.github.io/normalize.css/'>normalize.css</a>! I think I have a new article to write about why you should use it!)</i></p>
             <code className='code-block'>
                 <b><i>html:</i></b><br/><br/>
                 &#60;span className='glitch'&#62;<br/>&nbsp;&nbsp;&#60;span aria-hidden='true'&#62;Glitch text&#60;/span&#62;<br/>&nbsp;&nbsp;Glitch text<br/>&nbsp;&nbsp;&#60;span aria-hidden='true'&#62;Glitch text&#60;/span&#62;<br/>&#60;/span&#62;<br/><br/>
@@ -42,6 +44,7 @@ const GlitchText = (props) => {
                 &nbsp;&nbsp;text-transform: uppercase;<br/>
                 &nbsp;&nbsp;animation: glitch-color 2500ms infinite;<br/>
                 &#125;<br/><br/>
+                /* Depending on your styles,  you might need to add a top value as well */<br/>
                 .glitch span &#123;<br/>
                 &nbsp;&nbsp;position: absolute;<br/>
                 &nbsp;&nbsp;left: 0;<br/>
@@ -198,7 +201,6 @@ const GlitchText = (props) => {
                 &nbsp;&nbsp;&#125;<br/>
                 &#125;
             </code>
-            <p><i>(Note: I noticed some strange effects in Firefox when using vw units as font-size, so I recommend using px, em, or rem units - after some testing, it seems like the issue was coming from some kind of rounding issues in Firefox. So, if you run into weird issues with the spans not lining up properly, make sure you're not using vw or other scaling values.)</i></p>
         </article>
     );
 
