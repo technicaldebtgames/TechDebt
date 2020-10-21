@@ -13,7 +13,7 @@ const GlitchText = (props) => {
                 Glitch text
                 <span aria-hidden='true'>Glitch text</span>
             </span>
-            <p className='dropcap'>This is a browser-agnostic glitch text effect using only CSS. (Correction: Firefox seems to not like it completely now, so I will be fixing that and figuring out what the issue is soon.) It uses some staggered animations and <a href='https://bennettfeely.com/clippy/'>clip-paths</a> on span text to simulate that "glitchy" feel of broken text and smeared color palettes. It's actually very straight-forward - the vast majority of the CSS for it is just animation values that move stuff around. You can easily customize it to match your project.</p>
+            <p className='dropcap'>This is a browser-agnostic glitch text effect using only CSS. It uses some staggered animations and <a href='https://bennettfeely.com/clippy/'>clip-paths</a> on span text to simulate that "glitchy" feel of broken text and smeared color palettes. It's actually very straight-forward - the vast majority of the CSS for it is just animation values that move stuff around. You can easily customize it to match your project.</p>
             <p>Due to how accurate certain values need to be in order for this style to pull off what it is trying to do, <a href='https://css-tricks.com/specifics-on-css-specificity/'>specificity</a> is a big issue with this. Depending on your implementation, you might find that giving some properties the <a href='https://www.smashingmagazine.com/2010/11/the-important-css-declaration-how-and-when-to-use-it/'>!important</a> rule is an incredibly helpful fix.</p>
             <p>(It's worth noting that <i>usually</i> the <b>!important</b> rule is a <a href='https://refactoring.guru/refactoring/smells'>code smell</a>, but if you use it responsibly it can be very helpful. Trying to get styles like this glitch text to work is probably a good example of responsible use of the rule.)</p>
             <p>I should probably explain what's going on here.</p>
@@ -37,18 +37,14 @@ const GlitchText = (props) => {
                 .glitch &#123;<br/>
                 &nbsp;&nbsp;position: relative;<br/>
                 &nbsp;&nbsp;margin: 1vw;<br/>
-                &nbsp;&nbsp;font-size: 7.5vw;<br/>
+                &nbsp;&nbsp;font-size: 75px;<br/>
                 &nbsp;&nbsp;font-weight: 600;<br/>
                 &nbsp;&nbsp;text-transform: uppercase;<br/>
                 &nbsp;&nbsp;animation: glitch-color 2500ms infinite;<br/>
                 &#125;<br/><br/>
                 .glitch span &#123;<br/>
                 &nbsp;&nbsp;position: absolute;<br/>
-                &nbsp;&nbsp;margin: auto;<br/>
-                &nbsp;&nbsp;top: 0;<br/>
                 &nbsp;&nbsp;left: 0;<br/>
-                &nbsp;&nbsp;bottom: 0;<br/>
-                &nbsp;&nbsp;right: 0;<br/>
                 &#125;<br/><br/>
                 .glitch span:first-child &#123;<br/>
                 &nbsp;&nbsp;animation: glitch-color 1750ms infinite;<br/>
@@ -202,6 +198,7 @@ const GlitchText = (props) => {
                 &nbsp;&nbsp;&#125;<br/>
                 &#125;
             </code>
+            <p><i>(Note: I noticed some strange effects in Firefox when using vw units as font-size, so I recommend using px, em, or rem units - after some testing, it seems like the issue was coming from some kind of rounding issues in Firefox. So, if you run into weird issues with the spans not lining up properly, make sure you're not using vw or other scaling values.)</i></p>
         </article>
     );
 
