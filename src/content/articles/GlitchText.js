@@ -14,8 +14,8 @@ const GlitchText = (props) => {
                 Glitch text
                 <span aria-hidden='true'>Glitch text</span>
             </span>
-            <p className='dropcap'>This is a browser-agnostic glitch text effect using only CSS. It uses some staggered animations and <a href='https://bennettfeely.com/clippy/'>clip-paths</a> on span text to simulate that "glitchy" feel of broken text and smeared color palettes. It's actually very straight-forward - the vast majority of the CSS for it is just animation values that move stuff around. You can easily customize it to match your project.</p>
-            <p>Due to how accurate certain values need to be in order for this style to pull off what it is trying to do, <a href='https://css-tricks.com/specifics-on-css-specificity/'>specificity</a> is a big issue with this. Depending on your implementation, you might find that giving some properties the <a href='https://www.smashingmagazine.com/2010/11/the-important-css-declaration-how-and-when-to-use-it/'>!important</a> rule is an incredibly helpful fix.</p>
+            <p className='dropcap'>This is a browser-agnostic glitch text effect using only CSS. It uses some staggered <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations'>animations</a> and <a href='https://bennettfeely.com/clippy/'>clip-paths</a> on span text to simulate that "glitchy" feel of broken text and smeared color palettes. It's actually very straight-forward - the vast majority of the CSS for it is just animation values that move stuff around. You can easily customize it to match your project.</p>
+            <p>Due to how accurate certain values need to be in order for this style to pull off what it is trying to do, <a href='https://css-tricks.com/specifics-on-css-specificity/'>specificity</a> is a big issue. Depending on your implementation, you might find that giving some properties the <a href='https://www.smashingmagazine.com/2010/11/the-important-css-declaration-how-and-when-to-use-it/'>!important</a> rule is an incredibly helpful fix.</p>
             <p>(It's worth noting that <i>usually</i> the <b>!important</b> rule is a <a href='https://refactoring.guru/refactoring/smells'>code smell</a>, but if you use it responsibly it can be very helpful. Trying to get styles like this glitch text to work is probably a good example of responsible use of the rule.)</p>
             <p>I should probably explain what's going on here, huh?</p>
             <p>You'll see that there are three span tags. The outer span holds two inner spans that surround the first span's text. Those two spans have <i>aria-hidden='true'</i> for when a screen reader stumbles onto them, just so it doesn't repeat the text pointlessly. I'm only using those spans to create the visual effect, so I don't want to bother anyone using reading assistance technology with having to listen to the text multiple times...</p>
@@ -43,7 +43,7 @@ const GlitchText = (props) => {
                 &nbsp;&nbsp;text-transform: uppercase;<br/>
                 &nbsp;&nbsp;animation: glitch-color 2500ms infinite;<br/>
                 &#125;<br/><br/>
-                /* Depending on your styles, you might need to adjust top as well as left here. In this example, I had to adjust top, but it's a case-by-case basis! */<br/>
+                /* Depending on your styles, you might need to adjust top as well as left here. It's a case-by-case basis! */<br/>
                 .glitch span &#123;<br/>
                 &nbsp;&nbsp;position: absolute;<br/>
                 &nbsp;&nbsp;left: 0;<br/>
