@@ -37,14 +37,13 @@ const GlitchText = (props) => {
                 &#60;span className='glitch'&#62;<br/>&nbsp;&nbsp;&#60;span aria-hidden='true'&#62;Glitch text&#60;/span&#62;<br/>&nbsp;&nbsp;Glitch text<br/>&nbsp;&nbsp;&#60;span aria-hidden='true'&#62;Glitch text&#60;/span&#62;<br/>&#60;/span&#62;<br/><br/>
                 <b><i>css:</i></b><br/><br/>
                 .glitch &#123;<br/>
+                &nbsp;&nbsp;/* Add font-family, font-size, etc. properties here as needed */<br/>
                 &nbsp;&nbsp;position: relative;<br/>
-                &nbsp;&nbsp;margin: 1vw;<br/>
-                &nbsp;&nbsp;font-size: 75px;<br/>
-                &nbsp;&nbsp;font-weight: 600;<br/>
+                &nbsp;&nbsp;color: black;<br/>
                 &nbsp;&nbsp;text-transform: uppercase;<br/>
                 &nbsp;&nbsp;animation: glitch-color 2500ms infinite;<br/>
                 &#125;<br/><br/>
-                /* Depending on your styles,  you might need to add a top value as well */<br/>
+                /* Depending on your styles, you might need to adjust top as well as left here. In this example, I had to adjust top, but it's a case-by-case basis! */<br/>
                 .glitch span &#123;<br/>
                 &nbsp;&nbsp;position: absolute;<br/>
                 &nbsp;&nbsp;left: 0;<br/>
