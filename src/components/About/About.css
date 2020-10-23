@@ -1,29 +1,98 @@
-.MainBody .AboutContent {
+.AboutContent {
     padding: 0 0 1vw 0;
     background-color: #EEEEEE;
 }
 
-.MainBody .AboutContent .profile-img {
+.profile-img {
     margin: 7.5vw 5vw 1vw 12vw;
     width: 40vw;
     float: left;
-    border-radius: 0.5vw;
+    border-radius: 1vw;
+}
+
+.contact-form {
+    padding: 5vw 0 7.5vw 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-label {
+    padding: 0 0 2vw 0;
+    font-size: 4vw;
+    color: #111;
+}
+
+.form-text-input, .form-textarea-input {
+    width: 60vw;
+    padding: 1vw;
+    margin: 0 0 4vw 0;
+    font-family: 'Assistant', sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    border-width: 0.5vw;
+    border-radius: 1vw;
+    border-color: #111;
+}
+
+.form-textarea-input {
+    height: 20vw;
+}
+
+.form-submit-btn {
+    padding: 1vw;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 5vw;
+    color: #EEE;
+    background-color: #111;
+    border: none;
+    border-radius: 1vw;
 }
 
 @media only screen and (min-width: 600px) {
     
-    .MainBody .AboutContent .profile-img {
+    .profile-img {
         width: 30vw;
         margin-top: 8vw;
         margin-left: 12.5vw;
         margin-right: 4vw;
+        border-radius: 0.5vw;
     }
 
 }
 
 @media only screen and (min-width: 1000px) {
 
-    .MainBody .AboutContent .profile-img {
+    .contact-form {
+        padding: 50px 0 75px 0;
+    }
+
+    .form-label {
+        padding: 0 0 20px 0;
+        font-size: 40px;
+    }
+
+    .form-text-input, .form-textarea-input {
+        width: 600px;
+        padding: 10px;
+        margin: 0 0 40px 0;
+        font-size: 30px;
+        border-width: 5px;
+        border-radius: 10px;
+    }
+    
+    .form-textarea-input {
+        height: 200px;
+    }
+    
+    .form-submit-btn {
+        padding: 10px 25px 10px 25px;
+        font-size: 50px;
+        border-radius: 10px;
+    }
+
+    .profile-img {
         margin: 77px 35px 10px calc(50% - 375px);
         width: 250px;
     }
