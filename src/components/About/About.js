@@ -84,7 +84,6 @@ const About = (props) => {
                     <p>Celtic Healthcare, a home healthcare and hospice service organization.</p>
                 </div>
                 <h3>Get in touch!</h3>
-                <p>Fill out this <i>super quick</i> form to start a conversation about how I can help you <b>make the content your users <i>need to see!</i></b></p>
                 <form className='contact-form' action='https://formspree.io/f/xayloaja' method='POST'>
                     <label className='form-label' htmlFor='_replyto'>What's your email?</label>
                     <input className='form-text-input' type='text' name='_replyto' value={email} onChange={handleEmailChange} />
