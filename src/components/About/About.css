@@ -41,9 +41,10 @@
 }
 
 .form-submit-btn {
-    padding: 1vw;
+    padding: 1vw 2.5vw;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 5vw;
+    font-weight: 600;
     color: #EEE;
     background-color: #111;
     border: none;
@@ -87,7 +88,7 @@
     }
     
     .form-submit-btn {
-        padding: 10px 25px 10px 25px;
+        padding: 10px 25px;
         font-size: 50px;
         border-radius: 10px;
     }
