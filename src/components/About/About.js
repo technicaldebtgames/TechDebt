@@ -1,6 +1,9 @@
 import React, {useState, useRef, useEffect} from 'react';
 
 import ProfileImage from './db_profile_512.jpg';
+import TheStartupLogo from './TheStartupLogo.png';
+import CoFoundersTownLogo from './CoFoundersTownLogo.svg';
+import CelticLogo from './CelticLogo.png';
 
 import './About.css';
 
@@ -66,7 +69,21 @@ const About = (props) => {
                 <h3>Hi, I'm Dan.</h3>
                 <img className='profile-img' src={ProfileImage} alt='Dan Brioli' />
                 <p>I'm here to make your life easier with <b>content and illustrations</b> for your tech or B2B blog, <b>design and development solutions</b> for your website or brand, and <b>clear and engaging user documentation</b>.</p>
-                <p>I'm currently writing for <a href='https://medium.com/swlh'>The Startup</a>, Medium's largest publication. In the past, I've written user documentation for <a href='https://www.residentialhealthcaregroup.com/'>Celtic Healthcare</a>.</p>
+                <h3>Writing featured in:</h3>
+                <div className='feature-wrapper'>
+                    <a href='https://medium.com/swlh'><img className='feature-img' src={TheStartupLogo} alt='The Startup Logo' /></a>
+                    <p>The Startup, Medium's most popular publication.</p>
+                </div>
+                <div className='feature-wrapper'>
+                    <a href='https://www.cofounderstown.com/'><img className='feature-img' src={CoFoundersTownLogo} alt='CoFoundersTown Logo' /></a>
+                    <p>CoFoundersTown, a platform connecting individuals and organizations globally.</p>
+                </div>
+                <h3>User documentation for:</h3>
+                <div className='feature-wrapper'>
+                    <a href='https://www.residentialhealthcaregroup.com/'><img className='feature-img' src={CelticLogo} alt='Celtic Healthcare Logo' /></a>
+                    <p>Celtic Healthcare, a home healthcare and hospice service organization.</p>
+                </div>
+                <h3>Get in touch!</h3>
                 <p>Fill out this <i>super quick</i> form to start a conversation about how I can help you <b>make the content your users <i>need to see!</i></b></p>
                 <form className='contact-form' action='https://formspree.io/f/xayloaja' method='POST'>
                     <label className='form-label' htmlFor='_replyto'>What's your email?</label>
