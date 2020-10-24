@@ -69,6 +69,14 @@ const About = (props) => {
                 <h3>Hi, I'm Dan.</h3>
                 <img className='profile-img' src={ProfileImage} alt='Dan Brioli' />
                 <p>I'm here to make your life easier with <b>content and illustrations</b> for your tech or B2B blog, <b>design and development solutions</b> for your website or brand, and <b>clear and engaging user documentation</b>.</p>
+                <h3>Get in touch!</h3>
+                <form className='contact-form' action='https://formspree.io/f/xayloaja' method='POST'>
+                    <label className='form-label' htmlFor='_replyto'>What's your email?</label>
+                    <input className='form-text-input' type='text' name='_replyto' value={email} onChange={handleEmailChange} />
+                    {emailValidated && <label className='form-label' htmlFor='message'>What can I help you with?</label>}
+                    {emailValidated && <textarea className='form-textarea-input' name='message' value={message} onChange={handleMessageChange} />}
+                    {emailValidated && messageValidated && <button className='form-submit-btn' type='submit'>Send It!</button>}
+                </form>
                 <h3>Writing featured in:</h3>
                 <div className='feature-wrapper'>
                     <a href='https://medium.com/swlh'><img className='feature-img' src={TheStartupLogo} alt='The Startup Logo' /></a>
@@ -83,14 +91,6 @@ const About = (props) => {
                     <a href='https://www.residentialhealthcaregroup.com/'><img className='feature-img' src={CelticLogo} alt='Celtic Healthcare Logo' /></a>
                     <p>Celtic Healthcare, a home healthcare and hospice service organization.</p>
                 </div>
-                <h3>Get in touch!</h3>
-                <form className='contact-form' action='https://formspree.io/f/xayloaja' method='POST'>
-                    <label className='form-label' htmlFor='_replyto'>What's your email?</label>
-                    <input className='form-text-input' type='text' name='_replyto' value={email} onChange={handleEmailChange} />
-                    {emailValidated && <label className='form-label' htmlFor='message'>What can I help you with?</label>}
-                    {emailValidated && <textarea className='form-textarea-input' name='message' value={message} onChange={handleMessageChange} />}
-                    {emailValidated && messageValidated && <button className='form-submit-btn' type='submit'>Send It!</button>}
-                </form>
             </div>
         </div>
     );

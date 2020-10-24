@@ -80,10 +80,6 @@
     color: #BB0000;
 }
 
-.MainBody a:focus {
-    background-color: #AAA;
-}
-
 .MainBody .code-block {
     display: block;
     width: 80%;

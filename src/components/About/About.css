@@ -8,6 +8,7 @@
     width: 40vw;
     float: left;
     border-radius: 1vw;
+    box-shadow: 5px 5px #111;
 }
 
 .feature-wrapper {
@@ -22,10 +23,33 @@
     margin: 0 auto;
     width: 30vw;
     max-width: 300px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 1vw;
+    border-color: #D5D5D5;
+    box-shadow: 1vw 1vw #111;
+}
+
+.feature-img:hover {
+
+    position: relative;
+    top: 0.5vw;
+    left: 0.5vw;
+    border-color: #DDD;
+    box-shadow: 0.5vw 0.5vw #111;
+
+}
+
+.feature-img:active {
+
+    top: 0.7vw;
+    left: 0.7vw;
+    box-shadow: 0.3vw 0.3vw #111;
+
 }
 
 .contact-form {
-    padding: 5vw 0 7.5vw 0;
+    margin: 5vw 0 7.5vw 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,9 +69,11 @@
     font-family: 'Assistant', sans-serif;
     font-size: 3vw;
     text-align: center;
-    border-width: 0.5vw;
+    border-style: solid;
+    border-width: 1px;
     border-radius: 1vw;
-    border-color: #111;
+    border-color: #DDD;
+    box-shadow: 0.5vw 0.5vw #111;
 }
 
 .form-textarea-input {
@@ -59,10 +85,34 @@
     font-family: 'Ubuntu Mono', monospace;
     font-size: 5vw;
     font-weight: 600;
-    color: #EEE;
-    background-color: #111;
-    border: none;
+    color: #111;
+    background-color: #E5E5E5;
+    border: solid;
+    border-width: 1px;
     border-radius: 1vw;
+    border-color: #D5D5D5;
+    cursor: pointer;
+    box-shadow: 1vw 1vw #111;
+}
+
+.form-submit-btn:hover {
+
+    position: relative;
+    top: 0.5vw;
+    left: 0.5vw;
+    color: #111;
+    background-color: #EEE;
+    border-color: #DDD;
+    box-shadow: 0.5vw 0.5vw #111;
+
+}
+
+.form-submit-btn:active {
+
+    top: 0.7vw;
+    left: 0.7vw;
+    box-shadow: 0.3vw 0.3vw #111;
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -72,7 +122,6 @@
         margin-top: 8vw;
         margin-left: 12.5vw;
         margin-right: 4vw;
-        border-radius: 0.5vw;
     }
 
 }
@@ -80,7 +129,7 @@
 @media only screen and (min-width: 1000px) {
 
     .contact-form {
-        padding: 50px 0 75px 0;
+        margin: 50px 0 75px 0;
     }
 
     .form-label {
@@ -93,22 +142,62 @@
         padding: 10px;
         margin: 0 0 40px 0;
         font-size: 30px;
-        border-width: 5px;
+        border-width: 1px;
         border-radius: 10px;
+        box-shadow: 5px 5px #111;
     }
     
     .form-textarea-input {
         height: 200px;
+        resize: none;
     }
     
     .form-submit-btn {
         padding: 10px 25px;
         font-size: 50px;
         border-radius: 10px;
+        box-shadow: 10px 10px #111;
+    }
+
+    .form-submit-btn:hover {
+
+        top: 5px;
+        left: 5px;
+        box-shadow: 5px 5px #111;
+    
+    }
+    
+    .form-submit-btn:active {
+    
+        top: 7px;
+        left: 7px;
+        box-shadow: 3px 3px #111;
+    
     }
 
     .feature-wrapper {
         margin: 50px 0;
+    }
+
+    .feature-img {
+        border-radius: 10px;
+        box-shadow: 10px 10px #111;
+    }
+    
+    .feature-img:hover {
+    
+        top: 5px;
+        left: 5px;
+        box-shadow: 5px 5px #111;
+    
+    }
+    
+    .feature-img:active {
+    
+        top: 7px;
+        left: 7px;
+        box-shadow: 3px 3px #111;
+    
     }
 
     .profile-img {
