@@ -78,6 +78,7 @@
 
     .title h1 {
         font-size: 104px;
+        z-index: 10;
     }
 
     .subtitle1 {
