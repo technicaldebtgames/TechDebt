@@ -5,10 +5,11 @@
 
 .MainBody .RatesContent p {
     margin: 2vw auto;
+    text-align: center;
 }
 
 .MainBody p.lighter {
-    padding: 4vw 0 4vw 10vw;
+    padding: 4vw 0;
     color: #777;
     font-size: 4vw;
     line-height: 4.5vw;
@@ -22,7 +23,7 @@
     }
 
     .MainBody p.lighter {
-        padding: 3.5vw 0 3.5vw 10vw;
+        padding: 3.5vw 0;
         font-size: 3.5vw;
         line-height: 4vw;
     }
@@ -42,7 +43,7 @@
     }
 
     .MainBody p.lighter {
-        padding: 35px 0 35px 100px;
+        padding: 35px 0;
         font-size: 20px;
         line-height: 30px;
     }

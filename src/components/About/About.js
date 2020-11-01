@@ -2,6 +2,7 @@ import React, {useState, useRef, useEffect} from 'react';
 
 import ProfileImage from './db_profile_512.jpg';
 import TheStartupLogo from './TheStartupLogo.png';
+import LevelUpCodingLogo from './levelUpCodingLogo.png';
 import CoFoundersTownLogo from './CoFoundersTownLogo.svg';
 import CelticLogo from './CelticLogo.png';
 
@@ -68,7 +69,7 @@ const About = (props) => {
             <div className={expandAbout ? 'AboutContent' : 'hide'}>
                 <h3>Hi, I'm Dan.</h3>
                 <img className='profile-img' src={ProfileImage} alt='Dan Brioli' />
-                <p>I'm here to make your life easier with <b>content and illustrations</b> for your tech or B2B blog, <b>design and development solutions</b> for your website or brand, and <b>clear and engaging user documentation</b>.</p>
+                <p>I'm here to make your life easier with <b>writing and illustrations</b> for your tech or B2B blog, <b>design and development solutions</b> for your website or brand, and <b>clear and engaging user documentation</b>.</p>
                 <h3>Get in touch!</h3>
                 <form className='contact-form' action='https://formspree.io/f/xayloaja' method='POST'>
                     <label className='form-label' htmlFor='_replyto'>What's your email?</label>
@@ -77,16 +78,20 @@ const About = (props) => {
                     {emailValidated && <textarea className='form-textarea-input' name='message' value={message} onChange={handleMessageChange} />}
                     {emailValidated && messageValidated && <button className='form-submit-btn' type='submit'>Send It!</button>}
                 </form>
-                <h3>Writing featured in:</h3>
+                <h3>Writing for:</h3>
                 <div className='feature-wrapper'>
                     <a href='https://medium.com/swlh'><img className='feature-img' src={TheStartupLogo} alt='The Startup Logo' /></a>
-                    <p>The Startup, Medium's most popular publication.</p>
+                    <p>The Startup, <a href='https://medium.com/'>Medium</a>'s most popular publication.</p>
+                </div>
+                <div className='feature-wrapper'>
+                    <a href='https://levelup.gitconnected.com/'><img className='feature-img' src={LevelUpCodingLogo} alt='Level Up Coding Logo' /></a>
+                    <p>Level Up Coding by <a href='https://gitconnected.com/'>gitconnected.com</a>.</p>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://www.cofounderstown.com/'><img className='feature-img' src={CoFoundersTownLogo} alt='CoFoundersTown Logo' /></a>
                     <p>CoFoundersTown, a platform connecting individuals and organizations globally.</p>
                 </div>
-                <h3>User documentation for:</h3>
+                <h3>Documentation for:</h3>
                 <div className='feature-wrapper'>
                     <a href='https://www.residentialhealthcaregroup.com/'><img className='feature-img' src={CelticLogo} alt='Celtic Healthcare Logo' /></a>
                     <p>Celtic Healthcare, a home healthcare and hospice service organization.</p>

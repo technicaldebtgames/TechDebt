@@ -24,7 +24,7 @@
     width: 30vw;
     max-width: 300px;
     border: solid;
-    border-width: 1px;
+    border-width: 1px 0 0 1px;
     border-radius: 1vw;
     border-color: #D5D5D5;
     box-shadow: 1vw 1vw #111;
