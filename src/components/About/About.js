@@ -1,6 +1,7 @@
 import React, {useState, useRef, useEffect} from 'react';
 
 import ProfileImage from './db_profile_512.jpg';
+import BurnRateZeroLogo from './BurnRateZero.svg';
 import TheStartupLogo from './TheStartupLogo.png';
 import LevelUpCodingLogo from './levelUpCodingLogo.png';
 import CoFoundersTownLogo from './CoFoundersTownLogo.svg';
@@ -80,21 +81,25 @@ const About = (props) => {
                 </form>
                 <h3>Writing for:</h3>
                 <div className='feature-wrapper'>
+                    <a href='https://medium.com/burn-rate-zero'><img className='feature-img' src={BurnRateZeroLogo} alt='Burn Rate Zero Logo' /></a>
+                    <p><b>Burn Rate Zero</b>, my new <a href='https://medium.com/'>Medium</a> publication focused on reducing your burn rate and improving your life for free (or close to it).</p>
+                </div>
+                <div className='feature-wrapper'>
                     <a href='https://medium.com/swlh'><img className='feature-img' src={TheStartupLogo} alt='The Startup Logo' /></a>
-                    <p>The Startup, <a href='https://medium.com/'>Medium</a>'s most popular publication.</p>
+                    <p><b>The Startup</b>, <a href='https://medium.com/'>Medium</a>'s most popular publication.</p>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://levelup.gitconnected.com/'><img className='feature-img' src={LevelUpCodingLogo} alt='Level Up Coding Logo' /></a>
-                    <p>Level Up Coding by <a href='https://gitconnected.com/'>gitconnected.com</a>.</p>
+                    <p><b>Level Up Coding</b> by <a href='https://gitconnected.com/'>gitconnected.com</a>.</p>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://www.cofounderstown.com/'><img className='feature-img' src={CoFoundersTownLogo} alt='CoFoundersTown Logo' /></a>
-                    <p>CoFoundersTown, a platform connecting individuals and organizations globally.</p>
+                    <p><b>CoFoundersTown</b>, a platform connecting individuals and organizations globally.</p>
                 </div>
                 <h3>Documentation for:</h3>
                 <div className='feature-wrapper'>
                     <a href='https://www.residentialhealthcaregroup.com/'><img className='feature-img' src={CelticLogo} alt='Celtic Healthcare Logo' /></a>
-                    <p>Celtic Healthcare, a home healthcare and hospice service organization.</p>
+                    <p><b>Celtic Healthcare</b>, a home healthcare and hospice service organization.</p>
                 </div>
             </div>
         </div>
