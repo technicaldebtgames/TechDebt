@@ -4,6 +4,7 @@ import ProfileImage from './db_profile_512.jpg';
 import BurnRateZeroLogo from './BurnRateZero.svg';
 import TheStartupLogo from './TheStartupLogo.png';
 import LevelUpCodingLogo from './levelUpCodingLogo.png';
+import SmallBusinessStrong from './SmallBusinessStrong.jpeg';
 import CoFoundersTownLogo from './CoFoundersTownLogo.svg';
 import CelticLogo from './CelticLogo.png';
 
@@ -82,7 +83,7 @@ const About = (props) => {
                 <h3>Writing for:</h3>
                 <div className='feature-wrapper'>
                     <a href='https://medium.com/burn-rate-zero'><img className='feature-img' src={BurnRateZeroLogo} alt='Burn Rate Zero Logo' /></a>
-                    <p><b>Burn Rate Zero</b>, my new <a href='https://medium.com/'>Medium</a> publication focused on reducing your burn rate and improving your life for free (or close to it).</p>
+                    <p><b>Burn Rate Zero</b>, my <a href='https://medium.com/'>Medium</a> publication focused on reducing your burn rate and improving your life for free (or close to it).</p>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://medium.com/swlh'><img className='feature-img' src={TheStartupLogo} alt='The Startup Logo' /></a>
@@ -91,6 +92,10 @@ const About = (props) => {
                 <div className='feature-wrapper'>
                     <a href='https://levelup.gitconnected.com/'><img className='feature-img' src={LevelUpCodingLogo} alt='Level Up Coding Logo' /></a>
                     <p><b>Level Up Coding</b> by <a href='https://gitconnected.com/'>gitconnected.com</a>.</p>
+                </div>
+                <div className='feature-wrapper'>
+                    <a href='https://medium.com/small-business-strong'><img className='feature-img' src={SmallBusinessStrong} alt='Small Business Strong Logo' /></a>
+                    <p><b>Small Business STRONG</b> is a <a href='https://medium.com/'>Medium</a> publication devoted to helping business owners and small teams grow properly.</p>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://www.cofounderstown.com/'><img className='feature-img' src={CoFoundersTownLogo} alt='CoFoundersTown Logo' /></a>
