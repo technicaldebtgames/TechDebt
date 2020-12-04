@@ -4,6 +4,7 @@ import ProfileImage from './db_profile_512.jpg';
 import BurnRateZeroLogo from './BurnRateZero.svg';
 import TheStartupLogo from './TheStartupLogo.png';
 import LevelUpCodingLogo from './levelUpCodingLogo.png';
+import DevGeniusLogo from './DevGeniusLogo.png';
 import SmallBusinessStrong from './SmallBusinessStrong.jpeg';
 import CoFoundersTownLogo from './CoFoundersTownLogo.svg';
 import CelticLogo from './CelticLogo.png';
@@ -82,10 +83,6 @@ const About = (props) => {
                 </form>
                 <h3>Writing for:</h3>
                 <div className='feature-wrapper'>
-                    <a href='https://medium.com/burn-rate-zero'><img className='feature-img' src={BurnRateZeroLogo} alt='Burn Rate Zero Logo' /></a>
-                    <p><b>Burn Rate Zero</b>, my <a href='https://medium.com/'>Medium</a> publication focused on reducing your burn rate and improving your life for free (or close to it).</p>
-                </div>
-                <div className='feature-wrapper'>
                     <a href='https://medium.com/swlh'><img className='feature-img' src={TheStartupLogo} alt='The Startup Logo' /></a>
                     <p><b>The Startup</b>, <a href='https://medium.com/'>Medium</a>'s most popular publication.</p>
                 </div>
@@ -94,8 +91,16 @@ const About = (props) => {
                     <p><b>Level Up Coding</b> by <a href='https://gitconnected.com/'>gitconnected.com</a>.</p>
                 </div>
                 <div className='feature-wrapper'>
+                    <a href='https://medium.com/dev-genius'><img className='feature-img' src={DevGeniusLogo} alt='Dev Genius Logo' /></a>
+                    <p><b>Dev Genius</b> is a publication for coding, tutorials, news, and UI/UX.</p>
+                </div>
+                <div className='feature-wrapper'>
                     <a href='https://medium.com/small-business-strong'><img className='feature-img' src={SmallBusinessStrong} alt='Small Business Strong Logo' /></a>
-                    <p><b>Small Business STRONG</b> is a <a href='https://medium.com/'>Medium</a> publication devoted to helping business owners and small teams grow properly.</p>
+                    <p><b>Small Business STRONG</b> is a publication devoted to helping business owners and small teams grow properly.</p>
+                </div>
+                <div className='feature-wrapper'>
+                    <a href='https://medium.com/burn-rate-zero'><img className='feature-img' src={BurnRateZeroLogo} alt='Burn Rate Zero Logo' /></a>
+                    <p><b>Burn Rate Zero</b> is my <a href='https://medium.com/'>Medium</a> publication focused on reducing your burn rate and improving your life for free (or close to it.)</p>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://www.cofounderstown.com/'><img className='feature-img' src={CoFoundersTownLogo} alt='CoFoundersTown Logo' /></a>
