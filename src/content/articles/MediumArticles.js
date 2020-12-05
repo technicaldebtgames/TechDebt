@@ -16,7 +16,6 @@ const MediumArticles = (props) => {
             <h4>Small Business STRONG</h4>
             <p><a href='https://medium.com/small-business-strong/start-your-deep-work-strategy-today-a8a3a26efaaa?source=friends_link&sk=ee83bf60f8ed2d5faa9c196fa2c0d3f8'>Start Your Deep Work Strategy Today</a> - Key takeaways from Cal Newport's concept of deep work.</p>
             <h4>Burn Rate Zero</h4>
-            <p><a href='https://medium.com/burn-rate-zero/how-to-format-code-in-your-medium-article-5f5bb27420b4?sk=673c3f077ecfe3f66ddecefe12030e45'>How To Format Code In Your Medium Article</a> - A short article explaining the use of backticks in the Medium story editor.</p>
             <p><a href='https://medium.com/burn-rate-zero/the-free-tools-that-i-usually-love-to-use-919b861874c3?sk=f33100a611e8d5d4e8ed8ddf297c29d5'>The Free Tools That I (Usually) Love To Use</a> - A review of a number of free software tools that I have used over the years, and still use today.</p>
             <p><a href='https://medium.com/burn-rate-zero/cooking-skills-101-roast-more-vegetables-968c92386e7f?sk=a46947466d42a5fdd7566c131752b1ab'>Cooking Skills 101: Roast More Vegetables</a> - An easy win in the kitchen to get better tasting vegetable dishes into your life.</p>
             <p><a href='https://medium.com/burn-rate-zero/an-introduction-to-your-food-147ff8acae9e?sk=336999d547f9e04049dd58321bd89013'>An Introduction To Your Food</a> - An examination of our relationship with food and how to start fixing it.</p>

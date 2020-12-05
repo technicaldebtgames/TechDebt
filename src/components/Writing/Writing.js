@@ -10,6 +10,7 @@ const articles = Articles;
 
 const Writing = (props) => {
 
+    //todo: turn all of this into a hook or something reusable
     const [expandWriting, setExpandWriting] = useState(false);
     const [currentArticle, setCurrentArticle] = useState(0);
 
