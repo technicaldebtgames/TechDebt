@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 import Articles from '../../content/articles';
 
-import BrowsingButtons from '../BrowsingButtons/BrowsingButtons';
+import BrowsingButtons from '../BrowsingButtons';
 
 import './Writing.css';
 
