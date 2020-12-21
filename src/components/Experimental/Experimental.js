@@ -14,6 +14,8 @@ const Experimental = (props) => {
     const [expandExperimental, setExpandExperimental] = useState(false);
     const [currentExperiment, setCurrentExperiment] = useState(0);
 
+    const [experimentState, setExperimentState] = useState({});
+
     const nextExperiment = () => {
         if (currentExperiment === experiments.length - 1) {
             setCurrentExperiment(0);
@@ -21,6 +23,7 @@ const Experimental = (props) => {
         else {
             setCurrentExperiment(currentExperiment + 1);
         };
+        setExperimentState({});
     };
 
     const previousExperiment = () => {
@@ -30,6 +33,7 @@ const Experimental = (props) => {
         else {
             setCurrentExperiment(currentExperiment - 1);
         };
+        setExperimentState({});
     };
 
     return (
@@ -39,7 +43,7 @@ const Experimental = (props) => {
             </button>
             <div className={expandExperimental ? 'Experimental' : 'hide'}>
                 <BrowsingButtons previousItem={previousExperiment} nextItem={nextExperiment} />
-                {experiments[currentExperiment]()}
+                {experiments[currentExperiment](props = {experimentState, setExperimentState})}
             </div>
         </div>
     );

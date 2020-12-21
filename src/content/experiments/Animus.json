@@ -1,0 +1,73 @@
+{
+    "title": "Animus",
+    "subtitle": "The Will To Mythos",
+    "prompts": [
+        {
+            "id": 0,
+            "title": "In the beginning",
+            "tier": 0,
+            "choices": [
+                {
+                    "id": 0,
+                    "text": "there was nothing.",
+                    "changes": [
+                        {
+                            "attribute": "nihilist",
+                            "action": "add",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "text": "there was darkness.",
+                    "changes": [
+                        {
+                            "attribute": "good",
+                            "action": "add",
+                            "value": 1
+                        },
+                        {
+                            "attribute": "evil",
+                            "action": "add",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "there was emptiness.",
+                    "changes": [
+                        {
+                            "attribute": "material",
+                            "action": "add",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "you awoke.",
+                    "changes": [
+                        {
+                            "attribute": "conscious",
+                            "action": "add",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "the cycle continued.",
+                    "changes": [
+                        {
+                            "attribute": "cyclical",
+                            "action": "add",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
