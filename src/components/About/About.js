@@ -1,10 +1,12 @@
 import React, {useState, useRef, useEffect} from 'react';
 
 import ProfileImage from './db_profile_512.jpg';
-import BurnRateZeroLogo from './BurnRateZero.svg';
+import BurnRateZeroLogo from './BurnRateZeroLogo.png';
 import TheStartupLogo from './TheStartupLogo.png';
 import LevelUpCodingLogo from './levelUpCodingLogo.png';
 import DevGeniusLogo from './DevGeniusLogo.png';
+import IlluminationLogo from './illumination_logo.png';
+import PoliticallySpeakingLogo from './politically_speaking_logo.png';
 import SmallBusinessStrong from './SmallBusinessStrong.jpeg';
 import CoFoundersTownLogo from './CoFoundersTownLogo.svg';
 import CelticLogo from './CelticLogo.png';
@@ -84,32 +86,31 @@ const About = (props) => {
                 <h3>Writing for:</h3>
                 <div className='feature-wrapper'>
                     <a href='https://medium.com/swlh'><img className='feature-img' src={TheStartupLogo} alt='The Startup Logo' /></a>
-                    <p><b>The Startup</b>, <a href='https://medium.com/'>Medium</a>'s most popular publication.</p>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://levelup.gitconnected.com/'><img className='feature-img' src={LevelUpCodingLogo} alt='Level Up Coding Logo' /></a>
-                    <p><b>Level Up Coding</b> by <a href='https://gitconnected.com/'>gitconnected.com</a>.</p>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://medium.com/dev-genius'><img className='feature-img' src={DevGeniusLogo} alt='Dev Genius Logo' /></a>
-                    <p><b>Dev Genius</b> is a publication for coding, tutorials, news, and UI/UX.</p>
+                </div>
+                <div className='feature-wrapper'>
+                    <a href='https://medium.com/politically-speaking'><img className='feature-img' src={PoliticallySpeakingLogo} alt='Politically Speaking Logo' /></a>
+                </div>
+                <div className='feature-wrapper'>
+                    <a href='https://medium.com/illumination'><img className='feature-img' src={IlluminationLogo} alt='Illumination Logo' /></a>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://medium.com/small-business-strong'><img className='feature-img' src={SmallBusinessStrong} alt='Small Business Strong Logo' /></a>
-                    <p><b>Small Business STRONG</b> is a publication devoted to helping business owners and small teams grow properly.</p>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://medium.com/burn-rate-zero'><img className='feature-img' src={BurnRateZeroLogo} alt='Burn Rate Zero Logo' /></a>
-                    <p><b>Burn Rate Zero</b> is my <a href='https://medium.com/'>Medium</a> publication focused on reducing your burn rate and improving your life for free (or close to it.)</p>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://www.cofounderstown.com/'><img className='feature-img' src={CoFoundersTownLogo} alt='CoFoundersTown Logo' /></a>
-                    <p><b>CoFoundersTown</b>, a platform connecting individuals and organizations globally.</p>
                 </div>
                 <h3>Documentation for:</h3>
                 <div className='feature-wrapper'>
                     <a href='https://www.residentialhealthcaregroup.com/'><img className='feature-img' src={CelticLogo} alt='Celtic Healthcare Logo' /></a>
-                    <p><b>Celtic Healthcare</b>, a home healthcare and hospice service organization.</p>
                 </div>
             </div>
         </div>

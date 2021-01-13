@@ -16,13 +16,13 @@ const Animus = (props) => {
     //const [currentPrompt, setCurrentPrompt] = useState(0);
     //const [attributes, setAttributes] = useState({});
 
-    useEffect(() => {
+    /*useEffect(() => {
 
         if (!props.experimentState.currentPrompt) {
             props.setExperimentState({currentPrompt: 0})
         }
 
-    });
+    });*/
 
     return (
         <div className='animusContainer'>
