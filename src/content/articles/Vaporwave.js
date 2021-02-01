@@ -11,9 +11,9 @@ const Vaporwave = (props) => {
                 <div className='vapor-sunset'></div>
             </div>
             <p className='dropcap'>Are you familiar with an artistic movement known as vaporwave? It's a chill musical aesthetic based around a lot of 80s synths and dreamy atmospheres.</p>
-            <p>A lot of the artwork accompanying this musical style utilizes the feel of, well... <a href='https://m.media-amazon.com/images/M/MV5BMTlmMjJhNDctODg1NS00MzU1LTg3YzEtZGY2ZjYzOGE5OWZmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY1200_CR108,0,630,1200_AL_.jpg'>TV shows</a> and movie posters from the 80s and early 90s. <a href='https://en.wikipedia.org/wiki/Cruis%27n_USA'>Videogames</a>. Neons and pastels. Sunsets. Gradients. <a href='https://i.pinimg.com/originals/e0/8f/a2/e08fa236feac30ca0f4827711db80e1e.png'>VHS artifacts</a>.</p>
-            <p>It's a very unique aesthetic. If you get a chance, <a href='https://www.youtube.com/watch?v=SolEjKrcg4E'>give some of it a listen.</a></p>
-            <p>Anyway, this is a vaporwave animation done only in CSS. No JS, just divs and keyframes.</p>
+            <p>A lot of the artwork accompanying this musical style utilizes the feel of, well... <a href='https://m.media-amazon.com/images/M/MV5BMTlmMjJhNDctODg1NS00MzU1LTg3YzEtZGY2ZjYzOGE5OWZmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY1200_CR108,0,630,1200_AL_.jpg'>TV shows</a> and movie posters from the 80s and early 90s. <a href='https://en.wikipedia.org/wiki/Cruis%27n_USA'>Videogames</a>. Neons and pastels. Slight glitchy effects or missed steps of loops. Sunsets. Gradients. <a href='https://i.pinimg.com/originals/e0/8f/a2/e08fa236feac30ca0f4827711db80e1e.png'>VHS artifacts</a>.</p>
+            <p>It's a very unique (and nostalgic to some) aesthetic. If you get a chance, <a href='https://www.youtube.com/watch?v=SolEjKrcg4E'>give some of it a listen.</a></p>
+            <p>Anyway, this is a basic vaporwave sunset animation done only in CSS. No JS, just divs and keyframes.</p>
             <code className='code-block'>
                 <b><i>html:</i></b><br/><br/>
                 &#60;div className='vapor-sunset-container'&#62;<br/>
