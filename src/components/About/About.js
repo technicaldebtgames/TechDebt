@@ -5,7 +5,9 @@ import BurnRateZeroLogo from './BurnRateZeroLogo.png';
 import TheStartupLogo from './TheStartupLogo.png';
 import LevelUpCodingLogo from './levelUpCodingLogo.png';
 import DevGeniusLogo from './DevGeniusLogo.png';
+import TheWritingCooperativeLogo from './TheWritingCooperativeLogo.png';
 import IlluminationLogo from './illumination_logo.png';
+import SUPERJUMPLogo from './SUPERJUMPLogo.png';
 import PoliticallySpeakingLogo from './politically_speaking_logo.png';
 import SmallBusinessStrong from './SmallBusinessStrong.jpeg';
 import CoFoundersTownLogo from './CoFoundersTownLogo.svg';
@@ -94,10 +96,16 @@ const About = (props) => {
                     <a href='https://medium.com/dev-genius'><img className='feature-img' src={DevGeniusLogo} alt='Dev Genius Logo' /></a>
                 </div>
                 <div className='feature-wrapper'>
+                    <a href='https://writingcooperative.com/'><img className='feature-img' src={TheWritingCooperativeLogo} alt='The Writing Cooperative Logo' /></a>
+                </div>
+                <div className='feature-wrapper'>
                     <a href='https://medium.com/politically-speaking'><img className='feature-img' src={PoliticallySpeakingLogo} alt='Politically Speaking Logo' /></a>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://medium.com/illumination'><img className='feature-img' src={IlluminationLogo} alt='Illumination Logo' /></a>
+                </div>
+                <div className='feature-wrapper'>
+                    <a href='https://medium.com/super-jump'><img className='feature-img' src={SUPERJUMPLogo} alt='SUPERJUMP Logo' /></a>
                 </div>
                 <div className='feature-wrapper'>
                     <a href='https://medium.com/small-business-strong'><img className='feature-img' src={SmallBusinessStrong} alt='Small Business Strong Logo' /></a>
