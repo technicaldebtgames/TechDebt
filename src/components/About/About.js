@@ -86,39 +86,43 @@ const About = (props) => {
                     {emailValidated && messageValidated && <button className='form-submit-btn' type='submit'>Send It!</button>}
                 </form>
                 <h3>Writing for:</h3>
-                <div className='feature-wrapper'>
-                    <a href='https://medium.com/swlh'><img className='feature-img' src={TheStartupLogo} alt='The Startup Logo' /></a>
-                </div>
-                <div className='feature-wrapper'>
-                    <a href='https://levelup.gitconnected.com/'><img className='feature-img' src={LevelUpCodingLogo} alt='Level Up Coding Logo' /></a>
-                </div>
-                <div className='feature-wrapper'>
-                    <a href='https://medium.com/dev-genius'><img className='feature-img' src={DevGeniusLogo} alt='Dev Genius Logo' /></a>
-                </div>
-                <div className='feature-wrapper'>
-                    <a href='https://writingcooperative.com/'><img className='feature-img' src={TheWritingCooperativeLogo} alt='The Writing Cooperative Logo' /></a>
-                </div>
-                <div className='feature-wrapper'>
-                    <a href='https://medium.com/politically-speaking'><img className='feature-img' src={PoliticallySpeakingLogo} alt='Politically Speaking Logo' /></a>
-                </div>
-                <div className='feature-wrapper'>
-                    <a href='https://medium.com/illumination'><img className='feature-img' src={IlluminationLogo} alt='Illumination Logo' /></a>
-                </div>
-                <div className='feature-wrapper'>
-                    <a href='https://medium.com/super-jump'><img className='feature-img' src={SUPERJUMPLogo} alt='SUPERJUMP Logo' /></a>
-                </div>
-                <div className='feature-wrapper'>
-                    <a href='https://medium.com/small-business-strong'><img className='feature-img' src={SmallBusinessStrong} alt='Small Business Strong Logo' /></a>
-                </div>
-                <div className='feature-wrapper'>
-                    <a href='https://medium.com/burn-rate-zero'><img className='feature-img' src={BurnRateZeroLogo} alt='Burn Rate Zero Logo' /></a>
-                </div>
-                <div className='feature-wrapper'>
-                    <a href='https://www.cofounderstown.com/'><img className='feature-img' src={CoFoundersTownLogo} alt='CoFoundersTown Logo' /></a>
+                <div className='features-wrapper'>
+                    <div className='feature-wrapper'>
+                        <a href='https://medium.com/swlh'><img className='feature-img' src={TheStartupLogo} alt='The Startup Logo' /></a>
+                    </div>
+                    <div className='feature-wrapper'>
+                        <a href='https://levelup.gitconnected.com/'><img className='feature-img' src={LevelUpCodingLogo} alt='Level Up Coding Logo' /></a>
+                    </div>
+                    <div className='feature-wrapper'>
+                        <a href='https://medium.com/dev-genius'><img className='feature-img' src={DevGeniusLogo} alt='Dev Genius Logo' /></a>
+                    </div>
+                    <div className='feature-wrapper'>
+                        <a href='https://writingcooperative.com/'><img className='feature-img' src={TheWritingCooperativeLogo} alt='The Writing Cooperative Logo' /></a>
+                    </div>
+                    <div className='feature-wrapper'>
+                        <a href='https://medium.com/politically-speaking'><img className='feature-img' src={PoliticallySpeakingLogo} alt='Politically Speaking Logo' /></a>
+                    </div>
+                    <div className='feature-wrapper'>
+                        <a href='https://medium.com/illumination'><img className='feature-img' src={IlluminationLogo} alt='Illumination Logo' /></a>
+                    </div>
+                    <div className='feature-wrapper'>
+                        <a href='https://medium.com/super-jump'><img className='feature-img' src={SUPERJUMPLogo} alt='SUPERJUMP Logo' /></a>
+                    </div>
+                    <div className='feature-wrapper'>
+                        <a href='https://medium.com/small-business-strong'><img className='feature-img' src={SmallBusinessStrong} alt='Small Business Strong Logo' /></a>
+                    </div>
+                    <div className='feature-wrapper'>
+                        <a href='https://medium.com/burn-rate-zero'><img className='feature-img' src={BurnRateZeroLogo} alt='Burn Rate Zero Logo' /></a>
+                    </div>
+                    <div className='feature-wrapper'>
+                        <a href='https://www.cofounderstown.com/'><img className='feature-img' src={CoFoundersTownLogo} alt='CoFoundersTown Logo' /></a>
+                    </div>
                 </div>
                 <h3>Documentation for:</h3>
-                <div className='feature-wrapper'>
-                    <a href='https://www.residentialhealthcaregroup.com/'><img className='feature-img' src={CelticLogo} alt='Celtic Healthcare Logo' /></a>
+                <div className='features-wrapper'>
+                    <div className='feature-wrapper'>
+                        <a href='https://www.residentialhealthcaregroup.com/'><img className='feature-img' src={CelticLogo} alt='Celtic Healthcare Logo' /></a>
+                    </div>
                 </div>
             </div>
         </div>
