@@ -8,6 +8,7 @@ import DevGeniusLogo from './DevGeniusLogo.png';
 import TheWritingCooperativeLogo from './TheWritingCooperativeLogo.png';
 import IlluminationLogo from './illumination_logo.png';
 import SUPERJUMPLogo from './SUPERJUMPLogo.png';
+import InFitnessAndInHealthLogo from './InFitnessAndInHealthLogo.png';
 import PoliticallySpeakingLogo from './politically_speaking_logo.png';
 import SmallBusinessStrong from './SmallBusinessStrong.jpeg';
 import CoFoundersTownLogo from './CoFoundersTownLogo.svg';
@@ -107,6 +108,9 @@ const About = (props) => {
                     </div>
                     <div className='feature-wrapper'>
                         <a href='https://medium.com/super-jump'><img className='feature-img' src={SUPERJUMPLogo} alt='SUPERJUMP Logo' /></a>
+                    </div>
+                    <div className='feature-wrapper'>
+                        <a href='https://medium.com/in-fitness-and-in-health'><img className='feature-img' src={InFitnessAndInHealthLogo} alt='In Fitness And In Health Logo' /></a>
                     </div>
                     <div className='feature-wrapper'>
                         <a href='https://medium.com/small-business-strong'><img className='feature-img' src={SmallBusinessStrong} alt='Small Business Strong Logo' /></a>
