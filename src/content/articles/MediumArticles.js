@@ -4,13 +4,11 @@ const MediumArticles = (props) => {
 
     return (
         <article>
-            <h3>Some Of My Medium Articles</h3>
-            <p>This is a selection of my most popular or my personal favorite articles submitted to various Medium publications.</p>
-            <p>Don't worry, these are 'friend links'. You won't run into any paywalls here.</p>
-            <h4>Browse <a href='https://danbrioli.medium.com/'>my Medium profile</a> for more!</h4>
+            <h3>Some <a href='https://danbrioli.medium.com/'>Medium</a> Articles</h3>
             <p><a href='https://medium.com/illumination/the-man-who-saved-the-world-ab898a149391?sk=8efeee287be65dbd550ac7a3c01f4498'>The Man Who Saved the World</a> - The little-known story of Stanislav Petrov, who ignored state-of-the-art automated warnings and prevented nuclear war.</p>
             <p><a href='https://writingcooperative.com/its-ok-to-use-the-passive-voice-in-your-writing-b8d1d43d5006?sk=cc5833079d3500ae2a3a1a5459835053'>It’s Ok to Use the Passive Voice in Your Writing</a> - How and when to properly use it.</p>
             <p><a href='https://medium.com/dev-genius/2-best-practices-for-react-file-structures-b07da6c477aa?sk=f4d5ac164658d2cf268c7f6c7130e1f9'>2 Best Practices For React File Structures</a> - Two tips to help manage React file structures.</p>
+            <p><a href='https://medium.com/super-jump/machine-learning-language-and-the-illusion-of-human-creativity-part-one-4b8e7c32d1de?sk=4058bc40c91491391b9292be2111b206'>Machine Learning, Language, and the Illusion of Human Creativity: Part One</a> - An examination of the impact of machine learning on the creative industries.</p>
             <p><a href='https://medium.com/dev-genius/the-local-maxima-trap-of-iterative-development-1fde2a529894?sk=7fa31e77cd27ffb471d5819c1fbdf1a7'>The Local Maxima Trap Of Iterative Development</a> - An analogy of a photographer on a mountain, and how local maxima are traps that stop you from reaching your best product version.</p>
             <p><a href='https://medium.com/dev-genius/the-ninety-ninety-rule-and-paretos-principle-97d7c734747f?sk=585bb2e161826933c787b5ab22892dcd'>The Ninety-Ninety Rule And Pareto's Principle</a> - A comparison of a tongue-in-cheek "law" of software development and a more serious law of the distribution of resources.</p>
             <p><a href='https://medium.com/small-business-strong/start-your-deep-work-strategy-today-a8a3a26efaaa?source=friends_link&sk=ee83bf60f8ed2d5faa9c196fa2c0d3f8'>Start Your Deep Work Strategy Today</a> - Key takeaways from Cal Newport's concept of deep work.</p>
