@@ -11,7 +11,7 @@ import SUPERJUMPLogo from './SUPERJUMPLogo.png';
 import InFitnessAndInHealthLogo from './InFitnessAndInHealthLogo.png';
 import PoliticallySpeakingLogo from './politically_speaking_logo.png';
 import SmallBusinessStrong from './SmallBusinessStrong.jpeg';
-import CoFoundersTownLogo from './CoFoundersTownLogo.svg';
+//import CoFoundersTownLogo from './CoFoundersTownLogo.svg';
 import CelticLogo from './CelticLogo.png';
 
 import './About.css';
@@ -117,9 +117,6 @@ const About = (props) => {
                     </div>
                     <div className='feature-wrapper'>
                         <a href='https://medium.com/burn-rate-zero'><img className='feature-img' src={BurnRateZeroLogo} alt='Burn Rate Zero Logo' /></a>
-                    </div>
-                    <div className='feature-wrapper'>
-                        <a href='https://www.cofounderstown.com/'><img className='feature-img' src={CoFoundersTownLogo} alt='CoFoundersTown Logo' /></a>
                     </div>
                 </div>
                 <h3>Documentation for:</h3>
