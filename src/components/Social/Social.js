@@ -3,7 +3,7 @@ import React from 'react';
 import Envelope from './envelope.svg';
 import Github from './github.svg';
 import LinkedIn from './linked-in.svg';
-import Twitter from './twitter.svg';
+//import Twitter from './twitter.svg';
 
 import './Social.css';
 
