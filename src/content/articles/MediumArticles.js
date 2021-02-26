@@ -15,6 +15,7 @@ const MediumArticles = (props) => {
             <p><a href='https://medium.com/burn-rate-zero/lets-make-a-free-art-portfolio-9da157c64def'>Let's Make A Free Art Portfolio!</a> - A quick guide for artists on how to create a visual art portfolio using Github Pages.</p>
             <p><a href='https://medium.com/burn-rate-zero/an-introduction-to-your-food-147ff8acae9e?sk=336999d547f9e04049dd58321bd89013'>An Introduction To Your Food</a> - An examination of our relationship with food and how to start fixing it.</p>
             <p><a href='https://levelup.gitconnected.com/does-technical-debt-exist-714838eaf0f8?source=friends_link&sk=9d6963d9bc31a9c43befe174089b15a7'>Does Technical Debt Exist?</a> - A description of the term, a real-world example of it, and how to reduce its presence in your organization. (This article was localized for InfoQ China, and you can read the Chinese translation <a href='https://www.infoq.cn/article/G9hyluiAvCiAhX11Badv'>here</a>.)</p>
+            <p><a href='https://medium.com/the-shadow/11-weird-words-and-where-they-came-from-458183b00671?sk=6f4591bcda1aed4de09ddcd17a7336c0'>11 Weird Words and Where They Came From</a> - The title says it all.</p>
         </article>
     );
 
