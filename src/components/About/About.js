@@ -77,7 +77,9 @@ const About = (props) => {
             <div className={expandAbout ? 'AboutContent' : 'hide'}>
                 <h3>Hi, I'm Dan.</h3>
                 <img className='profile-img' src={ProfileImage} alt='Dan Brioli' />
-                <p>I'm here to make your life easier with <b>writing and illustrations</b> for your tech or B2B blog, <b>design and development solutions</b> for your website or brand, and <b>clear and engaging user documentation</b>.</p>
+                <p>If you'd like content written or edited, I'm your guy. Send me <a href='mailto:dan.s.brioli@gmail.com'>an email</a> or fill out the form below.</p>
+                <p>I'm a web developer as well, so if you have some crazy idea you want to make that involves the internet in some way, I can make it happen.</p>
+                <p>Or just send me a message and we can have a chat. I like to talk to people about, well... pretty much anything.</p>
                 <h3>Get in touch!</h3>
                 <form className='contact-form' action='https://formspree.io/f/xayloaja' method='POST'>
                     <label className='form-label' htmlFor='_replyto'>What's your email?</label>
